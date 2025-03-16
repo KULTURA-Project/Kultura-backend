@@ -1,0 +1,4 @@
+.logo-container img {
+    width: 10px;  /* Increase this value to adjust size */
+    height: auto;  /* Maintain aspect ratio */
+}
