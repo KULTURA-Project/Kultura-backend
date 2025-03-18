@@ -73,6 +73,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Your React app's origin
     "http://localhost:8000",  # Your Django app's origin
 ]
+CORS_ALLOW_ALL_ORIGINS = True
+
 
 TEMPLATES = [
     {
@@ -151,8 +153,8 @@ STATICFILES_DIRS = [
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # settings.py
-MEDIA_ROOT = BASE_DIR / 'media'
-MEDIA_URL = '/media/'
+MEDIA_URL = '/'
+MEDIA_ROOT = BASE_DIR / ''
 
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',  # Default authentication backend

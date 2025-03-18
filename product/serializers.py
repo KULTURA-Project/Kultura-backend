@@ -28,16 +28,23 @@ class VariantSerializer(serializers.ModelSerializer):
         model = Variant
         fields = '__all__'
 
+
+
+from rest_framework import serializers
+from django.conf import settings
+
 class ProductImageSerializer(serializers.ModelSerializer):
+    image = serializers.SerializerMethodField()
+
     class Meta:
         model = ProductImage
         fields = ['image', 'alt_text']
 
-    def to_representation(self, instance):
-        ret = super().to_representation(instance)
-        ret['image'] = f"{settings.MEDIA_URL}{instance.image}"
-        return ret
-
+    def get_image(self, obj):
+        request = self.context.get('request')
+        if request:
+            return request.build_absolute_uri(obj.image.url)
+        return f"{settings.MEDIA_URL}{obj.image.url}"
 class ProductSerializer(serializers.ModelSerializer):
     category = CategorySerializer(read_only=True)
     product_type = ProductTypeSerializer(read_only=True)
