@@ -1,26 +1,23 @@
 from rest_framework import serializers
-from .models import Order, OrderItem, Customer, Card, Wishlist, Coupon
-
-class OrderItemSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = OrderItem
-        fields = ['id', 'product', 'quantity', 'price']
-
-class OrderSerializer(serializers.ModelSerializer):
-    items = OrderItemSerializer(many=True, read_only=True)
+from .models import Order, OrderItem, Customer, Card, Wishlist, Coupon  , CartItem , Cart
+from product.serializers import ProductSerializer
+class CartItemSerializer(serializers.ModelSerializer):
+    product = ProductSerializer(read_only=True)
 
     class Meta:
-        model = Order
-        fields = ['id', 'customer', 'gestionnaire', 'total_price', 'status', 'created_at', 'items']
+        model = CartItem
+        fields = ['id', 'cart', 'product', 'quantity']
+
+class CartSerializer(serializers.ModelSerializer):
+    items = CartItemSerializer(many=True, read_only=True)
+
+    class Meta:
+        model = Cart
+        fields = ['id', 'user', 'items']
 
 class WishlistSerializer(serializers.ModelSerializer):
-    products = serializers.StringRelatedField(many=True)
+    products = ProductSerializer(many=True, read_only=True)
 
     class Meta:
         model = Wishlist
         fields = ['id', 'user', 'products']
-
-class CouponSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Coupon
-        fields = ['id', 'gestionnaire', 'code', 'discount_type', 'discount_value', 'active', 'start_date', 'end_date', 'usage_limit']
