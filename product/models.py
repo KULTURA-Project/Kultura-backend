@@ -20,6 +20,7 @@ class Category(MPTTModel):
     name = models.CharField(max_length=100)
     parent = TreeForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='children')
     image = models.ImageField(upload_to='categories/', blank=True, null=True) 
+    featured = models.BooleanField(default=False) # Add this field
     class MPTTMeta:
         order_insertion_by = ['name']
 
@@ -47,6 +48,7 @@ class Product(models.Model):
         default=1  # Set a default value here
     )
     product_type = models.ForeignKey('ProductType', on_delete=models.SET_NULL, null=True, blank=True)
+    featured = models.BooleanField(default=False) # Add this field
 
     def save(self, *args, **kwargs):
         if not self.slug:
