@@ -3,9 +3,10 @@ from rest_framework.permissions import IsAdminUser
 from .models import Gestionnaire
 from .serializers import GestionnaireSerializer
 from django.shortcuts import render
+from customers.models import CustomUser
 from orders.models import Order
 from product.models import Product
-from orders.models import Customer, OrderItem
+from orders.models import  OrderItem
 from django.db.models import Sum, Count
 from django.utils import timezone
 from datetime import timedelta
@@ -63,7 +64,7 @@ class AdminDashboardView(TemplateView):
             'top_products': OrderItem.objects.values('product__name')
                                   .annotate(total_sales=Sum('quantity'))
                                   .order_by('-total_sales')[:5],
-            'customer_growth': Customer.objects.filter(created_at__gte=time_threshold).count(),
+            'customer_growth': CustomUser.objects.filter(created_at__gte=time_threshold).count(),
         })
         return context
 

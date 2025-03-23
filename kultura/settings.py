@@ -54,6 +54,8 @@ INSTALLED_APPS = [
     'orders',
     'home',
     'django_extensions',
+     'viewflow',
+    'viewflow.workflow',  # Only if using workflow features
    
 
 

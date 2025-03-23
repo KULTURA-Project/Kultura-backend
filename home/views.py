@@ -5,7 +5,7 @@ from rest_framework.views import APIView
 from product.models import Product, Category
 from orders.models import  Promotion, Wishlist
 from product.serializers import ProductSerializer, CategorySerializer 
-from orders.models import Order, Transaction, Customer , OrderItem 
+from orders.models import Order, Transaction , OrderItem 
 from orders.serializers import PromotionSerializer 
 class CategoryView(APIView):
     def get(self, request):

@@ -5,8 +5,9 @@ from django.db.models import Sum
 from product.models import Product
 from orders.models import OrderItem
 from django.db.models import Sum
-from orders.models import Customer
+#from orders.models import Customer
 from django.utils import timezone
+from customers.models import CustomUser
 from datetime import timedelta
 
 def get_total_revenue():
@@ -24,7 +25,7 @@ def get_total_orders():
 def get_new_customers():
     today = timezone.now()
     last_week = today - timedelta(days=7)
-    new_customers = Customer.objects.filter(user__date_joined__gte=last_week).count()
+    new_customers = CustomUser.objects.filter(user__date_joined__gte=last_week).count()
     return new_customers
 
 
@@ -64,7 +65,7 @@ def custom_admin_view(request):
     total_revenue = Order.objects.aggregate(total_revenue=Sum('total_price'))['total_revenue']
     total_orders = Order.objects.count()
     top_selling_products = Order.objects.values('items__product__name').annotate(total_sales=Sum('items__quantity')).order_by('-total_sales')[:5]
-    new_customers = Customer.objects.filter(created_at__gte=timezone.now()-timedelta(days=7)).count()
+    new_customers = CustomUser.objects.filter(created_at__gte=timezone.now()-timedelta(days=7)).count()
     average_order_value = total_revenue / total_orders if total_orders else 0
     sales_by_category = Product.objects.values('category__name').annotate(total_sales=Sum('orderitem__quantity')).order_by('-total_sales')
 

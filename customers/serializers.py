@@ -1,6 +1,6 @@
 from django.contrib.auth.models import User
 from rest_framework import serializers
-from orders.models import Customer
+#from orders.models import .
 from djoser.serializers import UserSerializer as DjoserUserSerializer
 from djoser.serializers import UserSerializer as DjoserUserSerializer
 

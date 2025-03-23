@@ -2955,3 +2955,580 @@ WARNING 2025-03-23 01:40:21,162 log 646758 128865380861632 Not Found: /api/most-
 WARNING 2025-03-23 01:40:21,227 log 646758 128865592673984 Not Found: /api/most-wished-product/
 WARNING 2025-03-23 01:40:21,232 log 646758 128865582188224 Not Found: /api/recommendations/
 WARNING 2025-03-23 01:44:52,342 log 646758 128865571702464 Not Found: /favicon.ico
+INFO 2025-03-23 10:43:16,049 autoreload 706011 136688475074688 Watching for file changes with StatReloader
+WARNING 2025-03-23 10:44:17,415 log 706011 136688296789696 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 10:44:17,464 log 706011 136688286303936 Not Found: /api/recommendations/
+WARNING 2025-03-23 10:44:17,538 log 706011 136688286303936 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 10:44:17,692 log 706011 136688307275456 Not Found: /api/recommendations/
+WARNING 2025-03-23 10:53:04,399 log 706011 136688162571968 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 10:53:04,432 log 706011 136688296789696 Not Found: /api/recommendations/
+WARNING 2025-03-23 10:53:04,491 log 706011 136688194029248 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 10:53:04,532 log 706011 136688173057728 Not Found: /api/recommendations/
+INFO 2025-03-23 11:17:45,677 autoreload 706011 136688475074688 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-23 11:25:36,876 autoreload 719832 129215277080704 Watching for file changes with StatReloader
+INFO 2025-03-23 11:25:54,735 autoreload 719832 129215277080704 /home/ye/Desktop/symbiose/vegetables/orders/views.py changed, reloading.
+INFO 2025-03-23 11:25:55,559 autoreload 720138 136681169215616 Watching for file changes with StatReloader
+INFO 2025-03-23 11:28:46,516 autoreload 721324 135004909351040 Watching for file changes with StatReloader
+INFO 2025-03-23 11:36:44,409 autoreload 721324 135004909351040 /home/ye/Desktop/symbiose/vegetables/orders/views.py changed, reloading.
+INFO 2025-03-23 11:36:45,110 autoreload 725322 123222055858304 Watching for file changes with StatReloader
+INFO 2025-03-23 11:37:19,831 autoreload 725322 123222055858304 /home/ye/Desktop/symbiose/vegetables/orders/views.py changed, reloading.
+INFO 2025-03-23 11:37:20,343 autoreload 725527 130253716357248 Watching for file changes with StatReloader
+INFO 2025-03-23 11:38:09,265 autoreload 725527 130253716357248 /home/ye/Desktop/symbiose/vegetables/orders/views.py changed, reloading.
+INFO 2025-03-23 11:38:09,899 autoreload 725872 133443408674944 Watching for file changes with StatReloader
+INFO 2025-03-23 11:38:48,915 autoreload 725872 133443408674944 /home/ye/Desktop/symbiose/vegetables/orders/views.py changed, reloading.
+INFO 2025-03-23 11:38:49,571 autoreload 726026 137111042531456 Watching for file changes with StatReloader
+INFO 2025-03-23 11:40:56,047 autoreload 726026 137111042531456 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-23 11:40:56,906 autoreload 726621 133226858528896 Watching for file changes with StatReloader
+WARNING 2025-03-23 11:41:46,007 log 726621 133226595092160 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 11:41:46,038 log 726621 133226712532672 Not Found: /api/recommendations/
+WARNING 2025-03-23 11:41:46,055 log 726621 133226681075392 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 11:41:46,097 log 726621 133226712532672 Not Found: /api/recommendations/
+INFO 2025-03-23 11:43:51,612 autoreload 726621 133226858528896 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 11:43:52,422 autoreload 727444 125492552691840 Watching for file changes with StatReloader
+INFO 2025-03-23 11:44:03,877 autoreload 727444 125492552691840 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 11:44:04,456 autoreload 727617 137840410210432 Watching for file changes with StatReloader
+INFO 2025-03-23 11:46:46,518 autoreload 727617 137840410210432 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 11:46:46,988 autoreload 728281 130321505783936 Watching for file changes with StatReloader
+INFO 2025-03-23 11:46:51,281 autoreload 728281 130321505783936 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 11:46:51,887 autoreload 728427 128843008143488 Watching for file changes with StatReloader
+INFO 2025-03-23 11:47:04,269 autoreload 728427 128843008143488 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 11:47:04,673 autoreload 728632 127083015381120 Watching for file changes with StatReloader
+INFO 2025-03-23 11:47:12,036 autoreload 728632 127083015381120 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 11:47:12,680 autoreload 728742 123997329948800 Watching for file changes with StatReloader
+INFO 2025-03-23 11:47:25,232 autoreload 728742 123997329948800 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 11:47:25,676 autoreload 728877 129053587173504 Watching for file changes with StatReloader
+INFO 2025-03-23 11:48:08,878 autoreload 729127 133118847127680 Watching for file changes with StatReloader
+INFO 2025-03-23 11:48:20,206 autoreload 729127 133118847127680 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 11:48:20,612 autoreload 729300 128193131630720 Watching for file changes with StatReloader
+INFO 2025-03-23 11:54:07,897 autoreload 729300 128193131630720 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 11:54:08,467 autoreload 730473 128994016329856 Watching for file changes with StatReloader
+INFO 2025-03-23 11:56:33,568 autoreload 731691 138160857731200 Watching for file changes with StatReloader
+INFO 2025-03-23 11:58:28,067 autoreload 731691 138160857731200 /home/ye/Desktop/symbiose/vegetables/kultura/settings.py changed, reloading.
+INFO 2025-03-23 11:58:29,007 autoreload 732051 127127021678720 Watching for file changes with StatReloader
+INFO 2025-03-23 12:00:11,685 autoreload 732790 131582042202240 Watching for file changes with StatReloader
+WARNING 2025-03-23 12:01:55,971 log 732790 131581974939328 Not Found: /cart/
+WARNING 2025-03-23 12:01:56,021 log 732790 131581880567488 Not Found: /cart/
+WARNING 2025-03-23 12:02:03,924 log 732790 131581974939328 Not Found: /cart/
+WARNING 2025-03-23 12:02:03,935 log 732790 131581880567488 Not Found: /cart/
+WARNING 2025-03-23 12:05:42,354 log 732790 131581974939328 Not Found: /cart/
+WARNING 2025-03-23 12:05:42,364 log 732790 131581891053248 Not Found: /cart/
+WARNING 2025-03-23 12:10:09,876 log 732790 131581880567488 Forbidden (CSRF cookie not set.): /orders/create/
+WARNING 2025-03-23 12:24:10,350 log 732790 131581880567488 Forbidden (CSRF cookie not set.): /orders/create/
+WARNING 2025-03-23 12:24:11,801 log 732790 131581880567488 Forbidden (CSRF cookie not set.): /orders/create/
+WARNING 2025-03-23 12:24:17,362 log 732790 131581880567488 Forbidden (CSRF cookie not set.): /orders/create/
+WARNING 2025-03-23 12:27:47,355 log 732790 131581974939328 Not Found: /csrf/
+WARNING 2025-03-23 12:27:56,976 log 732790 131581880567488 Forbidden (CSRF cookie not set.): /orders/create/
+WARNING 2025-03-23 12:28:02,919 log 732790 131581974939328 Not Found: /csrf/
+WARNING 2025-03-23 12:28:02,933 log 732790 131581974939328 Not Found: /csrf/
+WARNING 2025-03-23 12:40:17,074 log 732790 131581891053248 Forbidden (CSRF cookie not set.): /orders/create/
+WARNING 2025-03-23 12:41:52,977 log 732790 131581880567488 Not Found: /csrf/
+WARNING 2025-03-23 12:41:53,041 log 732790 131581838624448 Not Found: /csrf/
+WARNING 2025-03-23 12:41:53,498 log 732790 131581891053248 Not Found: /favicon.ico
+WARNING 2025-03-23 12:47:37,396 log 732790 131581891053248 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 12:47:37,403 log 732790 131581658269376 Not Found: /api/recommendations/
+WARNING 2025-03-23 12:47:37,444 log 732790 131581668755136 Not Found: /api/recommendations/
+WARNING 2025-03-23 12:47:37,484 log 732790 131581658269376 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 12:49:41,249 log 732790 131581679240896 Not Found: /
+WARNING 2025-03-23 12:49:44,802 log 732790 131581679240896 Not Found: /en/
+WARNING 2025-03-23 12:49:45,044 log 732790 131581679240896 Not Found: /favicon.ico
+WARNING 2025-03-23 12:49:49,902 log 732790 131581679240896 Not Found: /redoc
+INFO 2025-03-23 12:55:19,897 autoreload 732790 131582042202240 /home/ye/Desktop/symbiose/vegetables/orders/urls.py changed, reloading.
+INFO 2025-03-23 12:55:20,714 autoreload 749662 134283817328768 Watching for file changes with StatReloader
+ERROR 2025-03-23 12:55:24,271 log 749662 134283750540992 Internal Server Error: /orders/create/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/orders/views.py", line 164, in post
+    cart = request.user.cart
+           ^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'cart'
+ERROR 2025-03-23 14:12:47,239 log 749662 134283750540992 Internal Server Error: /orders/create/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/orders/views.py", line 164, in post
+    cart = request.user.cart
+           ^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'cart'
+ERROR 2025-03-23 14:17:19,998 log 749662 134283729569472 Internal Server Error: /orders/create/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/orders/views.py", line 164, in post
+    cart = request.user.cart
+           ^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'cart'
+INFO 2025-03-23 14:17:36,737 autoreload 749662 134283817328768 /home/ye/Desktop/symbiose/vegetables/orders/views.py changed, reloading.
+INFO 2025-03-23 14:17:38,734 autoreload 762990 134012415799424 Watching for file changes with StatReloader
+ERROR 2025-03-23 14:17:44,084 log 762990 134012349712064 Internal Server Error: /orders/create/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/orders/views.py", line 165, in post
+    cart = request.user.cart  # Access the user's cart via the OneToOneField relationship
+           ^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'cart'
+INFO 2025-03-23 14:18:38,551 autoreload 762990 134012415799424 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 14:18:38,974 autoreload 763459 131481151881344 Watching for file changes with StatReloader
+INFO 2025-03-23 14:18:41,252 autoreload 763459 131481151881344 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 14:18:41,851 autoreload 763530 128730717495424 Watching for file changes with StatReloader
+INFO 2025-03-23 14:18:57,437 autoreload 763530 128730717495424 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 14:18:57,845 autoreload 763686 129519914221696 Watching for file changes with StatReloader
+INFO 2025-03-23 14:19:00,120 autoreload 763686 129519914221696 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 14:19:00,770 autoreload 763766 129574415212672 Watching for file changes with StatReloader
+INFO 2025-03-23 14:19:24,501 autoreload 763766 129574415212672 /home/ye/Desktop/symbiose/vegetables/orders/apps.py changed, reloading.
+INFO 2025-03-23 14:19:25,282 autoreload 763944 140408468295808 Watching for file changes with StatReloader
+INFO 2025-03-23 14:44:46,491 autoreload 774757 135054101184640 Watching for file changes with StatReloader
+WARNING 2025-03-23 14:45:12,550 log 774757 135053963167424 Unauthorized: /orders/cart/remove/
+WARNING 2025-03-23 14:45:18,064 log 774757 135053963167424 Not Found: /api/categories/36/
+WARNING 2025-03-23 14:45:18,066 log 774757 135053952681664 Not Found: /api/category-products/36/
+WARNING 2025-03-23 14:45:18,090 log 774757 135053963167424 Not Found: /api/category-products/36/
+WARNING 2025-03-23 14:45:18,093 log 774757 135053952681664 Not Found: /api/categories/36/
+WARNING 2025-03-23 14:45:18,949 log 774757 135053952681664 Not Found: /api/categories/32/
+WARNING 2025-03-23 14:45:18,964 log 774757 135053963167424 Not Found: /api/category-products/32/
+WARNING 2025-03-23 14:45:19,483 log 774757 135053963167424 Not Found: /api/categories/31/
+WARNING 2025-03-23 14:45:19,485 log 774757 135053952681664 Not Found: /api/category-products/31/
+WARNING 2025-03-23 14:45:36,310 log 774757 135053942195904 Unauthorized: /home/api/recommendations/
+WARNING 2025-03-23 14:45:36,341 log 774757 135053835241152 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 14:45:36,382 log 774757 135053952681664 Not Found: /api/recommendations/
+WARNING 2025-03-23 14:45:36,420 log 774757 135053835241152 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 14:45:36,425 log 774757 135053942195904 Unauthorized: /home/api/recommendations/
+WARNING 2025-03-23 14:45:36,478 log 774757 135053921224384 Not Found: /api/recommendations/
+WARNING 2025-03-23 14:45:54,333 log 774757 135053921224384 Unauthorized: /api/customers/profile/
+WARNING 2025-03-23 14:45:54,396 log 774757 135053963167424 Unauthorized: /api/customers/profile/
+WARNING 2025-03-23 14:46:15,747 log 774757 135053921224384 Not Found: /orders/
+WARNING 2025-03-23 14:46:15,799 log 774757 135053963167424 Not Found: /orders/
+ERROR 2025-03-23 14:46:18,409 log 774757 135053963167424 Internal Server Error: /orders/wishlist/
+ERROR 2025-03-23 14:46:18,468 log 774757 135053963167424 Internal Server Error: /orders/wishlist/
+ERROR 2025-03-23 14:46:19,776 log 774757 135053963167424 Internal Server Error: /orders/wishlist/
+ERROR 2025-03-23 14:46:19,792 log 774757 135053963167424 Internal Server Error: /orders/wishlist/
+INFO 2025-03-23 14:47:04,489 autoreload 776044 135541987106944 Watching for file changes with StatReloader
+WARNING 2025-03-23 14:47:07,461 log 776044 135541798471360 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 14:47:07,524 log 776044 135541850900160 Not Found: /api/recommendations/
+WARNING 2025-03-23 14:47:07,529 log 776044 135541840414400 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 14:47:07,600 log 776044 135541840414400 Not Found: /api/recommendations/
+WARNING 2025-03-23 14:47:12,181 log 776044 135541798471360 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 14:47:12,211 log 776044 135541798471360 Not Found: /api/recommendations/
+WARNING 2025-03-23 14:47:12,249 log 776044 135541819442880 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 14:47:12,291 log 776044 135541850900160 Not Found: /api/recommendations/
+ERROR 2025-03-23 14:47:49,368 log 776044 135541829928640 Internal Server Error: /orders/create/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/orders/views.py", line 189, in post
+    customer=request.user.customer,
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py", line 531, in __get__
+    raise self.RelatedObjectDoesNotExist(
+customers.models.CustomUser.customer.RelatedObjectDoesNotExist: CustomUser has no customer.
+WARNING 2025-03-23 14:49:45,617 log 776044 135541850900160 Not Found: /api/categories/31/
+WARNING 2025-03-23 14:49:45,618 log 776044 135541798471360 Not Found: /api/category-products/31/
+WARNING 2025-03-23 14:49:45,636 log 776044 135541840414400 Not Found: /api/categories/31/
+WARNING 2025-03-23 14:49:45,637 log 776044 135541850900160 Not Found: /api/category-products/31/
+ERROR 2025-03-23 14:51:18,656 log 776044 135541829928640 Internal Server Error: /orders/create/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/orders/views.py", line 189, in post
+    customer=request.user.customer,
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py", line 531, in __get__
+    raise self.RelatedObjectDoesNotExist(
+customers.models.CustomUser.customer.RelatedObjectDoesNotExist: CustomUser has no customer.
+INFO 2025-03-23 14:52:04,157 autoreload 776044 135541987106944 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 14:52:05,039 autoreload 777493 133166702882944 Watching for file changes with StatReloader
+INFO 2025-03-23 14:52:07,462 autoreload 777493 133166702882944 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 14:52:08,479 autoreload 777594 129588291281024 Watching for file changes with StatReloader
+INFO 2025-03-23 14:53:09,825 autoreload 777594 129588291281024 /home/ye/Desktop/symbiose/vegetables/orders/views.py changed, reloading.
+INFO 2025-03-23 14:53:10,833 autoreload 777919 134791079288960 Watching for file changes with StatReloader
+INFO 2025-03-23 14:53:57,392 autoreload 778190 136347882266752 Watching for file changes with StatReloader
+WARNING 2025-03-23 14:54:01,699 log 778190 136347815773888 Bad Request: /orders/create/
+ERROR 2025-03-23 14:57:41,808 log 778190 136347815773888 Internal Server Error: /orders/wishlist/
+ERROR 2025-03-23 14:57:41,821 log 778190 136347815773888 Internal Server Error: /orders/wishlist/
+ERROR 2025-03-23 14:57:44,103 log 778190 136347815773888 Internal Server Error: /orders/wishlist/
+ERROR 2025-03-23 14:57:44,116 log 778190 136347815773888 Internal Server Error: /orders/wishlist/
+WARNING 2025-03-23 14:59:24,731 log 778190 136347815773888 Bad Request: /orders/create/
+WARNING 2025-03-23 14:59:53,500 log 778190 136347815773888 Not Found: /api/categories/36/
+WARNING 2025-03-23 14:59:53,516 log 778190 136347805288128 Not Found: /api/category-products/36/
+WARNING 2025-03-23 14:59:53,519 log 778190 136347815773888 Not Found: /api/categories/36/
+WARNING 2025-03-23 14:59:53,536 log 778190 136347805288128 Not Found: /api/category-products/36/
+WARNING 2025-03-23 14:59:55,209 log 778190 136347805288128 Not Found: /api/categories/32/
+WARNING 2025-03-23 14:59:55,211 log 778190 136347815773888 Not Found: /api/category-products/32/
+WARNING 2025-03-23 14:59:56,350 log 778190 136347815773888 Not Found: /api/categories/25/
+WARNING 2025-03-23 14:59:56,355 log 778190 136347805288128 Not Found: /api/category-products/25/
+WARNING 2025-03-23 14:59:58,555 log 778190 136347662681792 Not Found: /api/category-products/25/
+WARNING 2025-03-23 14:59:58,558 log 778190 136347815773888 Not Found: /api/categories/25/
+WARNING 2025-03-23 14:59:58,566 log 778190 136347662681792 Not Found: /api/category-products/25/
+WARNING 2025-03-23 14:59:58,574 log 778190 136347815773888 Not Found: /api/categories/25/
+INFO 2025-03-23 15:10:09,140 autoreload 778190 136347882266752 /home/ye/Desktop/symbiose/vegetables/orders/views.py changed, reloading.
+INFO 2025-03-23 15:10:09,983 autoreload 781536 136139515281536 Watching for file changes with StatReloader
+WARNING 2025-03-23 15:11:43,380 log 781536 136139381933760 Bad Request: /orders/create/
+WARNING 2025-03-23 15:13:02,812 log 781536 136139381933760 Bad Request: /orders/create/
+INFO 2025-03-23 15:14:43,106 autoreload 781536 136139515281536 /home/ye/Desktop/symbiose/vegetables/orders/views.py changed, reloading.
+INFO 2025-03-23 15:14:44,700 autoreload 783549 133003814617216 Watching for file changes with StatReloader
+WARNING 2025-03-23 15:15:14,372 log 783549 133003659445952 Bad Request: /orders/create/
+INFO 2025-03-23 15:16:49,269 autoreload 783549 133003814617216 /home/ye/Desktop/symbiose/vegetables/customers/apps.py changed, reloading.
+INFO 2025-03-23 15:16:50,214 autoreload 784532 129043164250240 Watching for file changes with StatReloader
+INFO 2025-03-23 15:16:57,768 autoreload 784532 129043164250240 /home/ye/Desktop/symbiose/vegetables/customers/apps.py changed, reloading.
+INFO 2025-03-23 15:16:58,820 autoreload 784789 125320257126528 Watching for file changes with StatReloader
+INFO 2025-03-23 15:17:17,452 autoreload 784789 125320257126528 /home/ye/Desktop/symbiose/vegetables/customers/signals.py changed, reloading.
+INFO 2025-03-23 15:17:18,258 autoreload 784982 129504220762240 Watching for file changes with StatReloader
+INFO 2025-03-23 15:17:41,064 autoreload 785147 135097084436608 Watching for file changes with StatReloader
+INFO 2025-03-23 15:17:56,536 autoreload 785147 135097084436608 /home/ye/Desktop/symbiose/vegetables/customers/signals.py changed, reloading.
+INFO 2025-03-23 15:17:57,250 autoreload 785278 125020904833152 Watching for file changes with StatReloader
+INFO 2025-03-23 15:18:03,574 autoreload 785278 125020904833152 /home/ye/Desktop/symbiose/vegetables/customers/signals.py changed, reloading.
+INFO 2025-03-23 15:18:04,351 autoreload 785378 123601741856896 Watching for file changes with StatReloader
+INFO 2025-03-23 15:20:08,256 autoreload 785378 123601741856896 /home/ye/Desktop/symbiose/vegetables/customers/signals.py changed, reloading.
+INFO 2025-03-23 15:20:09,872 autoreload 785768 124590581362816 Watching for file changes with StatReloader
+WARNING 2025-03-23 15:20:22,464 log 785768 124590514767552 Bad Request: /orders/create/
+INFO 2025-03-23 15:21:14,659 autoreload 785768 124590581362816 /home/ye/Desktop/symbiose/vegetables/orders/views.py changed, reloading.
+INFO 2025-03-23 15:21:15,557 autoreload 786392 139071044018304 Watching for file changes with StatReloader
+WARNING 2025-03-23 15:21:35,568 log 786392 139070894245568 Bad Request: /orders/create/
+WARNING 2025-03-23 15:22:25,421 log 786392 139070894245568 Forbidden (CSRF cookie not set.): /orders/complete/
+WARNING 2025-03-23 15:23:40,226 log 786392 139070894245568 Bad Request: /orders/create/
+INFO 2025-03-23 15:35:26,359 autoreload 786392 139071044018304 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 15:35:28,078 autoreload 790054 124255123804288 Watching for file changes with StatReloader
+INFO 2025-03-23 15:36:55,422 autoreload 790054 124255123804288 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 15:36:57,180 autoreload 790507 126905144021120 Watching for file changes with StatReloader
+INFO 2025-03-23 15:37:50,196 autoreload 790507 126905144021120 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 15:37:52,017 autoreload 790738 139168766988416 Watching for file changes with StatReloader
+INFO 2025-03-23 15:39:37,732 autoreload 790738 139168766988416 /home/ye/Desktop/symbiose/vegetables/orders/admin.py changed, reloading.
+INFO 2025-03-23 15:39:39,556 autoreload 791301 123783015583872 Watching for file changes with StatReloader
+INFO 2025-03-23 15:40:06,134 autoreload 791301 123783015583872 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 15:40:07,221 autoreload 791502 135536011903104 Watching for file changes with StatReloader
+INFO 2025-03-23 15:40:55,095 autoreload 791502 135536011903104 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 15:40:56,807 autoreload 791864 125119770546304 Watching for file changes with StatReloader
+INFO 2025-03-23 15:41:15,043 autoreload 791864 125119770546304 /home/ye/Desktop/symbiose/vegetables/orders/models.py changed, reloading.
+INFO 2025-03-23 15:41:16,113 autoreload 792079 136874972369024 Watching for file changes with StatReloader
+INFO 2025-03-23 15:41:47,258 autoreload 792254 133481205805184 Watching for file changes with StatReloader
+INFO 2025-03-23 15:42:36,501 autoreload 792254 133481205805184 /home/ye/Desktop/symbiose/vegetables/vendors/views.py changed, reloading.
+INFO 2025-03-23 15:42:37,492 autoreload 792476 138750258405504 Watching for file changes with StatReloader
+INFO 2025-03-23 15:43:04,068 autoreload 792476 138750258405504 /home/ye/Desktop/symbiose/vegetables/vendors/views.py changed, reloading.
+INFO 2025-03-23 15:43:05,091 autoreload 792603 126549625897088 Watching for file changes with StatReloader
+INFO 2025-03-23 15:43:17,867 autoreload 792603 126549625897088 /home/ye/Desktop/symbiose/vegetables/vendors/views.py changed, reloading.
+INFO 2025-03-23 15:43:18,611 autoreload 792722 127952276635776 Watching for file changes with StatReloader
+INFO 2025-03-23 15:43:30,217 autoreload 792722 127952276635776 /home/ye/Desktop/symbiose/vegetables/vendors/views.py changed, reloading.
+INFO 2025-03-23 15:43:30,927 autoreload 792864 134462294847616 Watching for file changes with StatReloader
+INFO 2025-03-23 15:44:08,761 autoreload 792864 134462294847616 /home/ye/Desktop/symbiose/vegetables/vendors/custom_views.py changed, reloading.
+INFO 2025-03-23 15:44:09,544 autoreload 793020 127077906501760 Watching for file changes with StatReloader
+INFO 2025-03-23 15:44:14,131 autoreload 793020 127077906501760 /home/ye/Desktop/symbiose/vegetables/vendors/custom_views.py changed, reloading.
+INFO 2025-03-23 15:44:14,913 autoreload 793121 138447723094144 Watching for file changes with StatReloader
+INFO 2025-03-23 15:44:17,277 autoreload 793121 138447723094144 /home/ye/Desktop/symbiose/vegetables/vendors/custom_views.py changed, reloading.
+INFO 2025-03-23 15:44:18,189 autoreload 793182 123712492617856 Watching for file changes with StatReloader
+INFO 2025-03-23 15:45:01,489 autoreload 793182 123712492617856 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-23 15:45:02,205 autoreload 793367 126881451995264 Watching for file changes with StatReloader
+INFO 2025-03-23 15:45:17,176 autoreload 793367 126881451995264 /home/ye/Desktop/symbiose/vegetables/orders/views.py changed, reloading.
+INFO 2025-03-23 15:45:18,550 autoreload 793462 133989685686400 Watching for file changes with StatReloader
+INFO 2025-03-23 15:45:32,444 autoreload 793462 133989685686400 /home/ye/Desktop/symbiose/vegetables/home/views.py changed, reloading.
+INFO 2025-03-23 15:45:33,799 autoreload 793655 131203875463296 Watching for file changes with StatReloader
+INFO 2025-03-23 15:45:46,580 autoreload 793655 131203875463296 /home/ye/Desktop/symbiose/vegetables/customers/serializers.py changed, reloading.
+INFO 2025-03-23 15:45:47,463 autoreload 793840 140604317573248 Watching for file changes with StatReloader
+INFO 2025-03-23 15:45:49,790 autoreload 793840 140604317573248 /home/ye/Desktop/symbiose/vegetables/customers/serializers.py changed, reloading.
+INFO 2025-03-23 15:45:50,590 autoreload 793924 135385150345344 Watching for file changes with StatReloader
+INFO 2025-03-23 15:47:10,991 autoreload 793924 135385150345344 /home/ye/Desktop/symbiose/vegetables/orders/views.py changed, reloading.
+INFO 2025-03-23 15:47:12,810 autoreload 794415 131204240433280 Watching for file changes with StatReloader
+INFO 2025-03-23 15:47:29,986 autoreload 794415 131204240433280 /home/ye/Desktop/symbiose/vegetables/orders/views.py changed, reloading.
+INFO 2025-03-23 15:47:30,915 autoreload 794643 133532103336064 Watching for file changes with StatReloader
+INFO 2025-03-23 15:48:57,341 autoreload 794643 133532103336064 /home/ye/Desktop/symbiose/vegetables/orders/views.py changed, reloading.
+INFO 2025-03-23 15:48:58,807 autoreload 795133 127183763447936 Watching for file changes with StatReloader
+INFO 2025-03-23 15:49:07,026 views 795133 127183697741504 CreateOrderView called for user 1
+INFO 2025-03-23 15:49:07,027 views 795133 127183697741504 Request data: {}
+INFO 2025-03-23 15:49:07,030 views 795133 127183697741504 Cart: 1
+WARNING 2025-03-23 15:49:07,033 views 795133 127183697741504 Cart is empty.
+WARNING 2025-03-23 15:49:07,035 log 795133 127183697741504 Bad Request: /orders/create/
+INFO 2025-03-23 15:49:17,212 views 795133 127183697741504 CreateOrderView called for user 1
+INFO 2025-03-23 15:49:17,212 views 795133 127183697741504 Request data: {}
+INFO 2025-03-23 15:49:17,214 views 795133 127183697741504 Cart: 1
+ERROR 2025-03-23 15:49:17,405 log 795133 127183697741504 Internal Server Error: /orders/create/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/orders/views.py", line 212, in post
+    order = Order.objects.create(
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1848, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/backends/base/operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/utils.py", line 97, in inner
+    with self:
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+INFO 2025-03-23 15:49:51,134 autoreload 795646 139781163769984 Watching for file changes with StatReloader
+INFO 2025-03-23 15:49:53,862 views 795646 139781098964672 CreateOrderView called for user 1
+INFO 2025-03-23 15:49:53,863 views 795646 139781098964672 Request data: {}
+INFO 2025-03-23 15:49:53,864 views 795646 139781098964672 Cart: 1
+INFO 2025-03-23 15:49:53,880 views 795646 139781098964672 Order created with id: 1
+INFO 2025-03-23 15:49:53,897 views 795646 139781098964672 Order items created
+INFO 2025-03-23 15:49:53,911 views 795646 139781098964672 Cart cleared
+WARNING 2025-03-23 15:49:54,001 log 795646 139781098964672 Not Found: /orders/1/
+WARNING 2025-03-23 15:49:54,056 log 795646 139781088478912 Not Found: /orders/1/
+INFO 2025-03-23 15:50:56,578 autoreload 795646 139781163769984 /home/ye/Desktop/symbiose/vegetables/orders/urls.py changed, reloading.
+INFO 2025-03-23 15:50:57,445 autoreload 796242 127670331117696 Watching for file changes with StatReloader
+WARNING 2025-03-23 15:50:59,477 log 796242 127670182479552 Not Found: /orders/1/
+WARNING 2025-03-23 15:50:59,496 log 796242 127670182479552 Not Found: /orders/1/
+INFO 2025-03-23 15:51:26,320 autoreload 796242 127670331117696 /home/ye/Desktop/symbiose/vegetables/orders/urls.py changed, reloading.
+INFO 2025-03-23 15:51:27,142 autoreload 796490 130176220835968 Watching for file changes with StatReloader
+WARNING 2025-03-23 15:51:28,096 log 796490 130176075695808 Not Found: /orders/1/
+WARNING 2025-03-23 15:51:28,110 log 796490 130176075695808 Not Found: /orders/1/
+WARNING 2025-03-23 15:51:29,297 log 796490 130176075695808 Not Found: /orders/1/
+WARNING 2025-03-23 15:51:29,315 log 796490 130176065210048 Not Found: /orders/1/
+INFO 2025-03-23 15:52:46,632 views 796490 130176086181568 CreateOrderView called for user 1
+INFO 2025-03-23 15:52:46,634 views 796490 130176086181568 Request data: {}
+INFO 2025-03-23 15:52:46,635 views 796490 130176086181568 Cart: 1
+WARNING 2025-03-23 15:52:46,636 views 796490 130176086181568 Cart is empty.
+WARNING 2025-03-23 15:52:46,637 log 796490 130176086181568 Bad Request: /orders/create/
+INFO 2025-03-23 15:53:01,339 views 796490 130176086181568 CreateOrderView called for user 1
+INFO 2025-03-23 15:53:01,339 views 796490 130176086181568 Request data: {}
+INFO 2025-03-23 15:53:01,341 views 796490 130176086181568 Cart: 1
+INFO 2025-03-23 15:53:01,363 views 796490 130176086181568 Order created with id: 2
+INFO 2025-03-23 15:53:01,392 views 796490 130176086181568 Order items created
+INFO 2025-03-23 15:53:01,404 views 796490 130176086181568 Cart cleared
+WARNING 2025-03-23 15:53:01,461 log 796490 130176065210048 Not Found: /orders/2/
+WARNING 2025-03-23 15:53:01,518 log 796490 130176086181568 Not Found: /orders/2/
+WARNING 2025-03-23 15:54:13,266 log 796490 130175918409408 Unauthorized: /orders/orders/
+WARNING 2025-03-23 15:57:17,070 log 796490 130176065210048 Not Found: /orders/2/
+WARNING 2025-03-23 15:57:17,087 log 796490 130176065210048 Not Found: /orders/2/
+INFO 2025-03-23 15:57:44,868 autoreload 796490 130176220835968 /home/ye/Desktop/symbiose/vegetables/orders/urls.py changed, reloading.
+INFO 2025-03-23 15:57:46,689 autoreload 798379 132351775477888 Watching for file changes with StatReloader
+WARNING 2025-03-23 15:57:50,404 log 798379 132351629723328 Not Found: /orders/2/
+WARNING 2025-03-23 15:57:50,422 log 798379 132351619237568 Not Found: /orders/2/
+WARNING 2025-03-23 15:57:52,740 log 798379 132351619237568 Not Found: /orders/2/
+WARNING 2025-03-23 15:57:52,771 log 798379 132351619237568 Not Found: /orders/2/
+INFO 2025-03-23 15:58:01,644 views 798379 132351619237568 CreateOrderView called for user 1
+INFO 2025-03-23 15:58:01,644 views 798379 132351619237568 Request data: {}
+INFO 2025-03-23 15:58:01,647 views 798379 132351619237568 Cart: 1
+INFO 2025-03-23 15:58:01,667 views 798379 132351619237568 Order created with id: 3
+INFO 2025-03-23 15:58:01,693 views 798379 132351619237568 Order items created
+INFO 2025-03-23 15:58:01,707 views 798379 132351619237568 Cart cleared
+WARNING 2025-03-23 15:58:01,805 log 798379 132351709415104 Not Found: /orders/3/
+WARNING 2025-03-23 15:58:01,893 log 798379 132351619237568 Not Found: /orders/3/
+INFO 2025-03-23 15:58:50,041 autoreload 798379 132351775477888 /home/ye/Desktop/symbiose/vegetables/orders/urls.py changed, reloading.
+INFO 2025-03-23 15:58:50,741 autoreload 798837 135747726446720 Watching for file changes with StatReloader
+INFO 2025-03-23 15:58:53,175 autoreload 798837 135747726446720 /home/ye/Desktop/symbiose/vegetables/orders/urls.py changed, reloading.
+INFO 2025-03-23 15:58:53,808 autoreload 798984 126939184586880 Watching for file changes with StatReloader
+WARNING 2025-03-23 15:59:03,783 log 798984 126939031406272 Not Found: /orders/
+WARNING 2025-03-23 15:59:03,869 log 798984 126939117389504 Not Found: /orders/
+INFO 2025-03-23 15:59:13,742 views 798984 126939117389504 CreateOrderView called for user 1
+INFO 2025-03-23 15:59:13,743 views 798984 126939117389504 Request data: {}
+INFO 2025-03-23 15:59:13,745 views 798984 126939117389504 Cart: 1
+INFO 2025-03-23 15:59:13,762 views 798984 126939117389504 Order created with id: 4
+INFO 2025-03-23 15:59:13,794 views 798984 126939117389504 Order items created
+INFO 2025-03-23 15:59:13,808 views 798984 126939117389504 Cart cleared
+WARNING 2025-03-23 15:59:13,952 log 798984 126939117389504 Not Found: /orders/4/
+WARNING 2025-03-23 15:59:14,005 log 798984 126939031406272 Not Found: /orders/4/
+INFO 2025-03-23 16:00:48,849 autoreload 798984 126939184586880 /home/ye/Desktop/symbiose/vegetables/orders/views.py changed, reloading.
+INFO 2025-03-23 16:00:49,880 autoreload 799583 129573845139584 Watching for file changes with StatReloader
+WARNING 2025-03-23 16:01:10,092 log 799583 129573767349952 Not Found: /orders/4/
+WARNING 2025-03-23 16:01:10,142 log 799583 129573756864192 Not Found: /orders/4/
+INFO 2025-03-23 16:01:14,687 views 799583 129573777835712 CreateOrderView called for user 1
+INFO 2025-03-23 16:01:14,687 views 799583 129573777835712 Request data: {}
+INFO 2025-03-23 16:01:14,689 views 799583 129573777835712 Cart: 1
+INFO 2025-03-23 16:01:14,708 views 799583 129573777835712 Order created with id: 5
+INFO 2025-03-23 16:01:14,724 views 799583 129573777835712 Order items created
+INFO 2025-03-23 16:01:14,738 views 799583 129573777835712 Cart cleared
+WARNING 2025-03-23 16:01:14,828 log 799583 129573756864192 Not Found: /orders/5/
+WARNING 2025-03-23 16:01:14,861 log 799583 129573777835712 Not Found: /orders/5/
+INFO 2025-03-23 16:02:28,898 autoreload 799583 129573845139584 /home/ye/Desktop/symbiose/vegetables/orders/urls.py changed, reloading.
+INFO 2025-03-23 16:02:29,784 autoreload 800384 129750317523072 Watching for file changes with StatReloader
+WARNING 2025-03-23 16:02:33,694 log 800384 129750240593600 Not Found: /orders/3/
+WARNING 2025-03-23 16:02:33,714 log 800384 129750240593600 Not Found: /orders/3/
+WARNING 2025-03-23 16:02:34,779 log 800384 129750240593600 Not Found: /orders/3/
+WARNING 2025-03-23 16:02:34,793 log 800384 129750240593600 Not Found: /orders/3/
+WARNING 2025-03-23 16:04:07,377 log 800384 129750251079360 Not Found: /orders/3/
+WARNING 2025-03-23 16:04:07,445 log 800384 129750251079360 Not Found: /orders/3/
+WARNING 2025-03-23 16:04:11,999 log 800384 129750251079360 Not Found: /orders/5/
+WARNING 2025-03-23 16:04:12,013 log 800384 129750251079360 Not Found: /orders/5/
+INFO 2025-03-23 16:12:19,623 views 800384 129750251079360 CreateOrderView called for user 1
+INFO 2025-03-23 16:12:19,626 views 800384 129750251079360 Request data: {'coupon_code': ''}
+INFO 2025-03-23 16:12:19,628 views 800384 129750251079360 Cart: 1
+INFO 2025-03-23 16:12:19,644 views 800384 129750251079360 Order created with id: 6
+INFO 2025-03-23 16:12:19,676 views 800384 129750251079360 Order items created
+INFO 2025-03-23 16:12:19,689 views 800384 129750251079360 Cart cleared
+INFO 2025-03-23 16:16:05,545 views 800384 129750240593600 CreateOrderView called for user 1
+INFO 2025-03-23 16:16:05,547 views 800384 129750240593600 Request data: {}
+INFO 2025-03-23 16:16:05,548 views 800384 129750240593600 Cart: 1
+INFO 2025-03-23 16:16:05,560 views 800384 129750240593600 Order created with id: 7
+INFO 2025-03-23 16:16:05,586 views 800384 129750240593600 Order items created
+INFO 2025-03-23 16:16:05,597 views 800384 129750240593600 Cart cleared
+INFO 2025-03-23 16:17:13,050 views 800384 129750251079360 CreateOrderView called for user 1
+INFO 2025-03-23 16:17:13,051 views 800384 129750251079360 Request data: {}
+INFO 2025-03-23 16:17:13,053 views 800384 129750251079360 Cart: 1
+INFO 2025-03-23 16:17:13,065 views 800384 129750251079360 Order created with id: 8
+INFO 2025-03-23 16:17:13,086 views 800384 129750251079360 Order items created
+INFO 2025-03-23 16:17:13,094 views 800384 129750251079360 Cart cleared
