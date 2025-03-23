@@ -2575,3 +2575,383 @@ WARNING 2025-03-20 19:40:14,059 log 47062 129781473478336 Not Found: /api/recomm
 WARNING 2025-03-20 19:40:14,102 log 47062 129781462992576 Unauthorized: /home/api/recommendations/
 WARNING 2025-03-20 19:40:14,139 log 47062 129781473478336 Not Found: /api/most-wished-product/
 WARNING 2025-03-20 19:40:14,160 log 47062 129781442021056 Not Found: /api/recommendations/
+INFO 2025-03-22 15:42:18,207 autoreload 518018 127045254824064 Watching for file changes with StatReloader
+WARNING 2025-03-22 15:44:47,598 log 518018 127045101160128 Not Found: /api/product-page/product-1/
+WARNING 2025-03-22 15:44:47,601 log 518018 127045101160128 Not Found: /api/product-page/product-1/
+WARNING 2025-03-22 15:44:56,999 log 518018 127044996302528 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 15:44:57,008 log 518018 127044996302528 Not Found: /api/recommendations/
+WARNING 2025-03-22 15:44:57,022 log 518018 127045111645888 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 15:44:57,087 log 518018 127045111645888 Not Found: /api/recommendations/
+WARNING 2025-03-22 15:47:25,399 log 518018 127045080188608 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 15:47:25,418 log 518018 127044996302528 Not Found: /api/recommendations/
+WARNING 2025-03-22 15:47:25,430 log 518018 127045101160128 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 15:47:25,469 log 518018 127045080188608 Not Found: /api/recommendations/
+INFO 2025-03-22 15:50:48,847 autoreload 518018 127045254824064 /home/ye/Desktop/symbiose/vegetables/product/models.py changed, reloading.
+INFO 2025-03-22 15:50:49,266 autoreload 519944 127604043612288 Watching for file changes with StatReloader
+INFO 2025-03-22 15:50:51,551 autoreload 519944 127604043612288 /home/ye/Desktop/symbiose/vegetables/product/models.py changed, reloading.
+INFO 2025-03-22 15:50:52,108 autoreload 520031 125229705379968 Watching for file changes with StatReloader
+WARNING 2025-03-22 15:53:08,073 log 520031 125229567313600 Not Found: /
+WARNING 2025-03-22 15:53:09,037 log 520031 125229567313600 Not Found: /
+WARNING 2025-03-22 15:53:42,687 log 520031 125229556827840 Not Found: /api/product-page/{slug}/
+WARNING 2025-03-22 15:53:49,123 log 520031 125229556827840 Not Found: /api/product-page/200/
+WARNING 2025-03-22 15:53:55,823 log 520031 125229556827840 Not Found: /api/product-page/100/
+WARNING 2025-03-22 15:56:00,814 log 520031 125229210797760 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 15:56:00,827 log 520031 125229210797760 Not Found: /api/recommendations/
+WARNING 2025-03-22 15:56:00,840 log 520031 125229221283520 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 15:56:00,896 log 520031 125229221283520 Not Found: /api/recommendations/
+INFO 2025-03-22 16:17:19,347 autoreload 520031 125229705379968 /home/ye/Desktop/symbiose/vegetables/kultura/settings.py changed, reloading.
+INFO 2025-03-22 16:17:19,853 autoreload 526980 125459233177728 Watching for file changes with StatReloader
+INFO 2025-03-22 16:17:58,204 autoreload 527338 130802298298496 Watching for file changes with StatReloader
+WARNING 2025-03-22 16:18:07,391 log 527338 130802232854208 Not Found: /media/products/ancestral-idea-from-the-ashanti-people_0.jpg
+WARNING 2025-03-22 16:18:13,389 log 527338 130802232854208 Not Found: /media/products/ancestral-idea-from-the-ashanti-people_0.jpg
+WARNING 2025-03-22 16:19:16,141 log 527338 130802232854208 Not Found: /media/products/ancestral-idea-from-the-ashanti-people_0.jpg
+INFO 2025-03-22 16:19:30,323 autoreload 527338 130802298298496 /home/ye/Desktop/symbiose/vegetables/kultura/settings.py changed, reloading.
+INFO 2025-03-22 16:19:30,702 autoreload 528013 134787625681024 Watching for file changes with StatReloader
+WARNING 2025-03-22 16:24:19,090 log 528013 134787278833344 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 16:24:19,095 log 528013 134787268347584 Not Found: /api/recommendations/
+WARNING 2025-03-22 16:24:19,120 log 528013 134787268347584 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 16:24:19,124 log 528013 134787278833344 Not Found: /api/recommendations/
+WARNING 2025-03-22 16:33:29,939 log 528013 134787226404544 Not Found: /media/products/ancestral-idea-from-the-ashanti-people_0.jpg
+WARNING 2025-03-22 16:48:35,108 log 528013 134787067020992 Not Found: /api/recommendations/
+WARNING 2025-03-22 16:48:35,121 log 528013 134787247376064 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 16:48:35,147 log 528013 134787247376064 Not Found: /api/recommendations/
+WARNING 2025-03-22 16:48:35,170 log 528013 134787268347584 Not Found: /api/most-wished-product/
+ERROR 2025-03-22 16:48:59,492 log 528013 134787056535232 Internal Server Error: /home/api/recommendations/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/contrib/auth/models.py", line 438, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/home/views.py", line 40, in get
+    wishlist = Wishlist.objects.filter(user=user).first()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1555, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1385, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/fields/related_lookups.py", line 156, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7a96a734d9d0>.
+WARNING 2025-03-22 16:49:09,334 log 528013 134787056535232 Not Found: /home/api/recommendations/1
+WARNING 2025-03-22 16:49:12,697 log 528013 134787056535232 Not Found: /home/api/recommendations/5
+WARNING 2025-03-22 16:49:15,857 log 528013 134787056535232 Not Found: /home/api/recommendations/2
+WARNING 2025-03-22 16:49:18,818 log 528013 134787056535232 Not Found: /home/api/recommendations/1
+WARNING 2025-03-22 17:04:07,741 log 528013 134787278833344 Not Found: /
+WARNING 2025-03-22 17:04:09,022 log 528013 134787278833344 Not Found: /
+WARNING 2025-03-22 17:04:09,234 log 528013 134787278833344 Not Found: /favicon.ico
+WARNING 2025-03-22 17:58:31,116 log 528013 134787046049472 Not Found: /api/recommendations/
+WARNING 2025-03-22 17:58:31,127 log 528013 134787268347584 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 17:58:31,165 log 528013 134787480159936 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 17:58:31,195 log 528013 134787278833344 Not Found: /api/recommendations/
+WARNING 2025-03-22 17:59:30,699 log 528013 134787429828288 Not Found: /images/product2.jpg
+WARNING 2025-03-22 17:59:30,702 log 528013 134787226404544 Not Found: /images/product1.jpg
+WARNING 2025-03-22 17:59:30,712 log 528013 134787257861824 Not Found: /images/product3.jpg
+WARNING 2025-03-22 18:40:14,905 log 528013 134787450799808 Not Found: /api/recommendations/
+WARNING 2025-03-22 18:40:14,910 log 528013 134787461285568 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 18:40:14,935 log 528013 134787046049472 Not Found: /api/recommendations/
+WARNING 2025-03-22 18:40:14,958 log 528013 134787480159936 Not Found: /api/most-wished-product/
+ERROR 2025-03-22 18:48:22,676 log 528013 134787278833344 Internal Server Error: /orders/cart/remove/
+WARNING 2025-03-22 18:52:32,522 log 528013 134787046049472 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 18:52:32,550 log 528013 134787461285568 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 18:52:32,556 log 528013 134787268347584 Not Found: /api/recommendations/
+WARNING 2025-03-22 18:52:32,628 log 528013 134787268347584 Not Found: /api/recommendations/
+WARNING 2025-03-22 18:59:11,286 log 528013 134787046049472 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 18:59:11,290 log 528013 134787429828288 Not Found: /api/recommendations/
+WARNING 2025-03-22 18:59:11,306 log 528013 134787429828288 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 18:59:11,324 log 528013 134787450799808 Not Found: /api/recommendations/
+WARNING 2025-03-22 19:20:53,210 log 528013 134787278833344 Not Found: /
+WARNING 2025-03-22 19:20:54,961 log 528013 134787278833344 Not Found: /
+WARNING 2025-03-22 19:21:21,920 log 528013 134787461285568 Not Found: /api/recommendations/
+WARNING 2025-03-22 19:21:21,925 log 528013 134787236890304 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 19:21:21,946 log 528013 134787247376064 Unauthorized: /home/api/recommendations/
+WARNING 2025-03-22 19:21:21,976 log 528013 134787450799808 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 19:21:22,001 log 528013 134787247376064 Not Found: /api/recommendations/
+WARNING 2025-03-22 19:21:22,012 log 528013 134787257861824 Unauthorized: /home/api/recommendations/
+WARNING 2025-03-22 19:31:48,352 log 528013 134787480159936 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 19:31:48,377 log 528013 134787268347584 Not Found: /api/recommendations/
+WARNING 2025-03-22 19:31:48,396 log 528013 134787046049472 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 19:31:48,452 log 528013 134787236890304 Not Found: /api/recommendations/
+WARNING 2025-03-22 20:43:25,404 log 528013 134787236890304 Unauthorized: /orders/wishlist/add/
+WARNING 2025-03-22 20:43:29,866 log 528013 134787236890304 Unauthorized: /orders/wishlist/add/
+WARNING 2025-03-22 20:47:44,544 log 528013 134787247376064 Not Found: /api/recommendations/
+WARNING 2025-03-22 20:47:44,553 log 528013 134787257861824 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 20:47:44,609 log 528013 134787257861824 Unauthorized: /home/api/recommendations/
+WARNING 2025-03-22 20:47:44,627 log 528013 134787247376064 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 20:47:44,648 log 528013 134787480159936 Not Found: /api/recommendations/
+WARNING 2025-03-22 20:47:44,671 log 528013 134787257861824 Unauthorized: /home/api/recommendations/
+INFO 2025-03-22 20:48:44,337 autoreload 528013 134787625681024 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-22 20:48:46,177 autoreload 602741 126371214479488 Watching for file changes with StatReloader
+ERROR 2025-03-22 20:49:15,000 log 602741 126371061827264 Internal Server Error: /orders/wishlist/
+ERROR 2025-03-22 20:49:15,018 log 602741 126371061827264 Internal Server Error: /orders/wishlist/
+INFO 2025-03-22 20:49:33,960 autoreload 602741 126371214479488 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-22 20:49:35,414 autoreload 603304 123130337247360 Watching for file changes with StatReloader
+WARNING 2025-03-22 21:04:24,636 log 603304 123130035046080 Unauthorized: /orders/cart/
+WARNING 2025-03-22 21:04:24,705 log 603304 123130158778048 Unauthorized: /orders/cart/
+WARNING 2025-03-22 21:43:52,376 log 603304 123130158778048 Not Found: /images/product1.jpg
+WARNING 2025-03-22 21:43:52,392 log 603304 123130200721088 Not Found: /images/product2.jpg
+WARNING 2025-03-22 21:43:52,393 log 603304 123130190235328 Not Found: /images/product3.jpg
+WARNING 2025-03-22 22:01:42,760 log 603304 123130148292288 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 22:01:42,843 log 603304 123130190235328 Not Found: /api/recommendations/
+WARNING 2025-03-22 22:01:42,879 log 603304 123130148292288 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 22:01:42,917 log 603304 123130158778048 Not Found: /api/recommendations/
+WARNING 2025-03-22 22:10:48,569 log 603304 123130158778048 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 22:10:48,603 log 603304 123130190235328 Not Found: /api/recommendations/
+WARNING 2025-03-22 22:10:48,635 log 603304 123130066503360 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 22:10:48,697 log 603304 123130158778048 Not Found: /api/recommendations/
+WARNING 2025-03-22 22:11:42,832 log 603304 123130014074560 Not Found: /images/product1.jpg
+WARNING 2025-03-22 22:11:42,862 log 603304 123130148292288 Not Found: /images/product2.jpg
+WARNING 2025-03-22 22:11:42,867 log 603304 123130045531840 Not Found: /images/product3.jpg
+WARNING 2025-03-22 22:11:56,354 log 603304 123130169263808 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 22:11:56,408 log 603304 123130169263808 Not Found: /api/recommendations/
+WARNING 2025-03-22 22:11:56,476 log 603304 123130066503360 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 22:11:56,492 log 603304 123130169263808 Not Found: /api/recommendations/
+WARNING 2025-03-22 22:12:11,270 log 603304 123130014074560 Not Found: /
+WARNING 2025-03-22 22:12:14,689 log 603304 123130014074560 Not Found: /
+WARNING 2025-03-22 22:21:01,038 log 603304 123130190235328 Not Found: /api/recommendations/
+WARNING 2025-03-22 22:21:01,056 log 603304 123130200721088 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 22:21:01,115 log 603304 123130158778048 Not Found: /api/recommendations/
+WARNING 2025-03-22 22:21:01,157 log 603304 123130190235328 Not Found: /api/most-wished-product/
+INFO 2025-03-22 23:31:20,157 autoreload 603304 123130337247360 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-22 23:31:20,930 autoreload 641327 129898085613696 Watching for file changes with StatReloader
+INFO 2025-03-22 23:31:30,186 autoreload 641327 129898085613696 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-22 23:31:30,573 autoreload 641493 133772573511808 Watching for file changes with StatReloader
+INFO 2025-03-22 23:31:38,788 autoreload 641493 133772573511808 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-22 23:31:39,145 autoreload 641613 137286794731648 Watching for file changes with StatReloader
+INFO 2025-03-22 23:31:44,475 autoreload 641613 137286794731648 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-22 23:31:44,878 autoreload 641703 124557104484480 Watching for file changes with StatReloader
+INFO 2025-03-22 23:32:01,276 autoreload 641703 124557104484480 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-22 23:32:01,695 autoreload 641884 124561458634880 Watching for file changes with StatReloader
+INFO 2025-03-22 23:32:14,977 autoreload 641884 124561458634880 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-22 23:32:15,347 autoreload 642117 123891970314368 Watching for file changes with StatReloader
+INFO 2025-03-22 23:32:27,619 autoreload 642117 123891970314368 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-22 23:32:28,065 autoreload 642238 132026833563776 Watching for file changes with StatReloader
+INFO 2025-03-22 23:35:57,673 autoreload 642238 132026833563776 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-22 23:35:58,317 autoreload 643425 132637790363776 Watching for file changes with StatReloader
+INFO 2025-03-22 23:36:06,655 autoreload 643425 132637790363776 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-22 23:36:07,033 autoreload 643570 127912704229504 Watching for file changes with StatReloader
+INFO 2025-03-22 23:36:11,193 autoreload 643570 127912704229504 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-22 23:36:11,605 autoreload 643680 125378246709376 Watching for file changes with StatReloader
+INFO 2025-03-22 23:36:26,041 autoreload 643680 125378246709376 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-22 23:36:26,491 autoreload 643858 138884172316800 Watching for file changes with StatReloader
+INFO 2025-03-22 23:36:39,944 autoreload 643858 138884172316800 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-22 23:36:40,377 autoreload 644120 124200215863424 Watching for file changes with StatReloader
+INFO 2025-03-22 23:46:42,017 autoreload 644120 124200215863424 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-22 23:46:42,721 autoreload 646637 137368706482304 Watching for file changes with StatReloader
+INFO 2025-03-22 23:46:54,013 autoreload 646637 137368706482304 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-22 23:46:54,419 autoreload 646758 128865752703104 Watching for file changes with StatReloader
+WARNING 2025-03-22 23:51:56,370 log 646758 128865571702464 Not Found: /images/product1.jpg
+WARNING 2025-03-22 23:51:56,373 log 646758 128865561216704 Not Found: /images/product2.jpg
+WARNING 2025-03-22 23:51:56,374 log 646758 128865550730944 Not Found: /images/product3.jpg
+WARNING 2025-03-22 23:52:10,423 log 646758 128865676560064 Not Found: /images/product1.jpg
+WARNING 2025-03-22 23:52:10,427 log 646758 128865571702464 Not Found: /images/product3.jpg
+WARNING 2025-03-22 23:52:10,433 log 646758 128865550730944 Not Found: /images/product2.jpg
+WARNING 2025-03-22 23:52:15,541 log 646758 128865676560064 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 23:52:15,549 log 646758 128865687045824 Not Found: /api/recommendations/
+WARNING 2025-03-22 23:52:15,572 log 646758 128865582188224 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 23:52:15,623 log 646758 128865550730944 Not Found: /api/recommendations/
+WARNING 2025-03-22 23:53:41,210 log 646758 128865592673984 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 23:53:41,238 log 646758 128865592673984 Not Found: /api/recommendations/
+WARNING 2025-03-22 23:53:41,244 log 646758 128865687045824 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 23:53:41,299 log 646758 128865592673984 Not Found: /api/recommendations/
+WARNING 2025-03-22 23:55:13,961 log 646758 128865359890112 Not Found: /images/product3.jpg
+WARNING 2025-03-22 23:55:13,966 log 646758 128865370375872 Not Found: /images/product1.jpg
+WARNING 2025-03-22 23:55:13,970 log 646758 128865391347392 Not Found: /images/product2.jpg
+WARNING 2025-03-22 23:55:18,933 log 646758 128865582188224 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 23:55:18,947 log 646758 128865582188224 Not Found: /api/recommendations/
+WARNING 2025-03-22 23:55:18,960 log 646758 128865687045824 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 23:55:19,007 log 646758 128865592673984 Not Found: /api/recommendations/
+WARNING 2025-03-22 23:57:42,636 log 646758 128865687045824 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 23:57:42,659 log 646758 128865571702464 Not Found: /api/recommendations/
+WARNING 2025-03-22 23:57:42,676 log 646758 128865550730944 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 23:57:42,736 log 646758 128865582188224 Not Found: /api/recommendations/
+WARNING 2025-03-22 23:59:22,026 log 646758 128865582188224 Unauthorized: /home/api/recommendations/
+WARNING 2025-03-22 23:59:22,047 log 646758 128865550730944 Not Found: /api/recommendations/
+WARNING 2025-03-22 23:59:22,048 log 646758 128865592673984 Unauthorized: /home/api/recommendations/
+WARNING 2025-03-22 23:59:22,059 log 646758 128865687045824 Not Found: /api/most-wished-product/
+WARNING 2025-03-22 23:59:22,116 log 646758 128865571702464 Not Found: /api/recommendations/
+WARNING 2025-03-22 23:59:22,126 log 646758 128865582188224 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:01:46,775 log 646758 128865550730944 Unauthorized: /home/api/recommendations/
+WARNING 2025-03-23 00:01:46,784 log 646758 128865592673984 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:01:46,793 log 646758 128865687045824 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:01:46,821 log 646758 128865676560064 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:01:46,833 log 646758 128865592673984 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:01:46,840 log 646758 128865550730944 Unauthorized: /home/api/recommendations/
+WARNING 2025-03-23 00:06:34,603 log 646758 128865676560064 Not Found: /orders/
+WARNING 2025-03-23 00:07:09,186 log 646758 128865582188224 Not Found: /orders/
+WARNING 2025-03-23 00:07:09,244 log 646758 128865592673984 Not Found: /orders/
+WARNING 2025-03-23 00:08:57,325 log 646758 128865582188224 Not Found: /orders/
+WARNING 2025-03-23 00:08:57,420 log 646758 128865592673984 Not Found: /orders/
+WARNING 2025-03-23 00:09:38,526 log 646758 128865592673984 Not Found: /orders/
+WARNING 2025-03-23 00:12:42,219 log 646758 128865582188224 Not Found: /orders/
+WARNING 2025-03-23 00:12:42,333 log 646758 128865592673984 Not Found: /orders/
+WARNING 2025-03-23 00:14:24,512 log 646758 128865592673984 Not Found: /orders/
+WARNING 2025-03-23 00:23:11,421 log 646758 128865592673984 Not Found: /orders/
+WARNING 2025-03-23 00:26:04,924 log 646758 128865676560064 Not Found: /orders/
+WARNING 2025-03-23 00:26:04,974 log 646758 128865582188224 Not Found: /orders/
+WARNING 2025-03-23 00:26:56,190 log 646758 128865676560064 Not Found: /orders/
+WARNING 2025-03-23 00:26:56,230 log 646758 128865592673984 Not Found: /orders/
+WARNING 2025-03-23 00:30:37,291 log 646758 128865582188224 Not Found: /orders/
+WARNING 2025-03-23 00:30:37,330 log 646758 128865676560064 Not Found: /orders/
+WARNING 2025-03-23 00:31:12,681 log 646758 128865676560064 Not Found: /orders/
+WARNING 2025-03-23 00:31:12,727 log 646758 128865582188224 Not Found: /orders/
+WARNING 2025-03-23 00:33:33,414 log 646758 128865582188224 Not Found: /orders/
+WARNING 2025-03-23 00:35:55,331 log 646758 128865676560064 Not Found: /orders/
+WARNING 2025-03-23 00:35:55,388 log 646758 128865582188224 Not Found: /orders/
+WARNING 2025-03-23 00:41:12,387 log 646758 128865676560064 Not Found: /orders/
+WARNING 2025-03-23 00:41:12,436 log 646758 128865582188224 Not Found: /orders/
+WARNING 2025-03-23 00:41:21,438 log 646758 128865676560064 Not Found: /orders/
+WARNING 2025-03-23 00:41:21,475 log 646758 128865582188224 Not Found: /orders/
+WARNING 2025-03-23 00:43:34,847 log 646758 128865676560064 Not Found: /orders/
+WARNING 2025-03-23 00:43:34,880 log 646758 128865582188224 Not Found: /orders/
+WARNING 2025-03-23 00:44:32,104 log 646758 128865571702464 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:44:32,124 log 646758 128865582188224 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:44:32,138 log 646758 128865592673984 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:44:32,183 log 646758 128865582188224 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:45:43,998 log 646758 128865592673984 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:45:43,999 log 646758 128865391347392 Unauthorized: /home/api/recommendations/
+WARNING 2025-03-23 00:45:44,025 log 646758 128865561216704 Unauthorized: /home/api/recommendations/
+WARNING 2025-03-23 00:45:44,039 log 646758 128865592673984 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:45:44,048 log 646758 128865676560064 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:45:44,090 log 646758 128865582188224 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:45:55,181 log 646758 128865391347392 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:45:55,189 log 646758 128865391347392 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:45:55,197 log 646758 128865571702464 Unauthorized: /home/api/recommendations/
+WARNING 2025-03-23 00:45:55,213 log 646758 128865592673984 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:45:55,236 log 646758 128865676560064 Unauthorized: /home/api/recommendations/
+WARNING 2025-03-23 00:45:55,262 log 646758 128865582188224 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:46:10,933 log 646758 128865391347392 Unauthorized: /orders/wishlist/add/
+WARNING 2025-03-23 00:46:15,632 log 646758 128865582188224 Not Found: /orders/
+WARNING 2025-03-23 00:46:15,672 log 646758 128865391347392 Not Found: /orders/
+WARNING 2025-03-23 00:46:23,357 log 646758 128865592673984 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:46:23,381 log 646758 128865391347392 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:46:23,397 log 646758 128865676560064 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:46:23,435 log 646758 128865561216704 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:47:52,964 log 646758 128865540245184 Not Found: /images/product1.jpg
+WARNING 2025-03-23 00:47:52,968 log 646758 128865550730944 Not Found: /images/product3.jpg
+WARNING 2025-03-23 00:47:52,970 log 646758 128865349404352 Not Found: /images/product2.jpg
+WARNING 2025-03-23 00:47:59,367 log 646758 128865370375872 Not Found: /images/product1.jpg
+WARNING 2025-03-23 00:47:59,374 log 646758 128865380861632 Not Found: /images/product3.jpg
+WARNING 2025-03-23 00:47:59,382 log 646758 128865359890112 Not Found: /images/product2.jpg
+WARNING 2025-03-23 00:51:10,255 log 646758 128865391347392 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:51:10,267 log 646758 128865676560064 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:51:10,290 log 646758 128865676560064 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:51:10,297 log 646758 128865561216704 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:53:46,671 log 646758 128865359890112 Not Found: /images/product2.jpg
+WARNING 2025-03-23 00:53:46,677 log 646758 128865380861632 Not Found: /images/product3.jpg
+WARNING 2025-03-23 00:53:46,684 log 646758 128865338918592 Not Found: /images/product1.jpg
+WARNING 2025-03-23 00:53:50,430 log 646758 128865338918592 Not Found: /images/product1.jpg
+WARNING 2025-03-23 00:53:50,437 log 646758 128865380861632 Not Found: /images/product3.jpg
+WARNING 2025-03-23 00:53:50,443 log 646758 128865359890112 Not Found: /images/product2.jpg
+WARNING 2025-03-23 00:53:54,978 log 646758 128865592673984 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:53:54,996 log 646758 128865582188224 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:53:55,017 log 646758 128865676560064 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:53:55,058 log 646758 128865561216704 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:55:23,397 log 646758 128865571702464 Not Found: /orders/
+WARNING 2025-03-23 00:55:23,438 log 646758 128865561216704 Not Found: /orders/
+WARNING 2025-03-23 00:55:45,124 log 646758 128865676560064 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:55:45,130 log 646758 128865676560064 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:55:45,149 log 646758 128865561216704 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:55:45,205 log 646758 128865561216704 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:57:24,091 log 646758 128865592673984 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:57:24,101 log 646758 128865582188224 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:57:24,144 log 646758 128865571702464 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:57:24,168 log 646758 128865391347392 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:57:45,170 log 646758 128865592673984 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:57:45,180 log 646758 128865561216704 Not Found: /api/recommendations/
+WARNING 2025-03-23 00:57:45,227 log 646758 128865571702464 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 00:57:45,265 log 646758 128865582188224 Not Found: /api/recommendations/
+WARNING 2025-03-23 01:21:08,867 log 646758 128865592673984 Not Found: /orders/
+WARNING 2025-03-23 01:21:08,915 log 646758 128865582188224 Not Found: /orders/
+WARNING 2025-03-23 01:24:42,917 log 646758 128865540245184 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 01:24:42,938 log 646758 128865540245184 Not Found: /api/recommendations/
+WARNING 2025-03-23 01:24:42,958 log 646758 128865571702464 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 01:24:42,992 log 646758 128865561216704 Not Found: /api/recommendations/
+WARNING 2025-03-23 01:28:35,603 log 646758 128865391347392 Not Found: /images/product1.jpg
+WARNING 2025-03-23 01:28:35,608 log 646758 128865370375872 Not Found: /images/product3.jpg
+WARNING 2025-03-23 01:28:35,620 log 646758 128865380861632 Not Found: /images/product2.jpg
+WARNING 2025-03-23 01:28:37,240 log 646758 128865540245184 Not Found: /orders/wishlist/add/
+WARNING 2025-03-23 01:28:40,259 log 646758 128865540245184 Not Found: /orders/wishlist/add/
+WARNING 2025-03-23 01:28:42,232 log 646758 128865540245184 Not Found: /orders/cart/add/
+WARNING 2025-03-23 01:29:02,537 log 646758 128865582188224 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 01:29:02,567 log 646758 128865540245184 Not Found: /api/recommendations/
+WARNING 2025-03-23 01:29:02,595 log 646758 128865592673984 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 01:29:02,626 log 646758 128865571702464 Not Found: /api/recommendations/
+WARNING 2025-03-23 01:29:09,628 log 646758 128865582188224 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 01:29:09,636 log 646758 128865540245184 Not Found: /api/recommendations/
+WARNING 2025-03-23 01:29:09,659 log 646758 128865592673984 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 01:29:09,705 log 646758 128865582188224 Not Found: /api/recommendations/
+WARNING 2025-03-23 01:29:11,809 log 646758 128865592673984 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 01:29:11,820 log 646758 128865592673984 Not Found: /api/recommendations/
+WARNING 2025-03-23 01:29:11,836 log 646758 128865561216704 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 01:29:11,889 log 646758 128865561216704 Not Found: /api/recommendations/
+WARNING 2025-03-23 01:29:25,418 log 646758 128865571702464 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 01:29:25,433 log 646758 128865571702464 Not Found: /api/recommendations/
+WARNING 2025-03-23 01:29:25,452 log 646758 128865561216704 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 01:29:25,492 log 646758 128865582188224 Not Found: /api/recommendations/
+WARNING 2025-03-23 01:36:44,153 log 646758 128865582188224 Unauthorized: /home/api/recommendations/
+WARNING 2025-03-23 01:36:44,180 log 646758 128865370375872 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 01:36:44,197 log 646758 128865370375872 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 01:36:44,200 log 646758 128865582188224 Not Found: /api/recommendations/
+WARNING 2025-03-23 01:36:44,217 log 646758 128865380861632 Unauthorized: /home/api/recommendations/
+WARNING 2025-03-23 01:36:44,247 log 646758 128865582188224 Not Found: /api/recommendations/
+WARNING 2025-03-23 01:37:21,938 log 646758 128865582188224 Not Found: /orders/
+WARNING 2025-03-23 01:37:21,965 log 646758 128865370375872 Not Found: /orders/
+WARNING 2025-03-23 01:40:18,734 log 646758 128865561216704 Not Found: /orders/
+WARNING 2025-03-23 01:40:18,780 log 646758 128865561216704 Not Found: /orders/
+WARNING 2025-03-23 01:40:21,136 log 646758 128865582188224 Not Found: /api/recommendations/
+WARNING 2025-03-23 01:40:21,162 log 646758 128865380861632 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 01:40:21,227 log 646758 128865592673984 Not Found: /api/most-wished-product/
+WARNING 2025-03-23 01:40:21,232 log 646758 128865582188224 Not Found: /api/recommendations/
+WARNING 2025-03-23 01:44:52,342 log 646758 128865571702464 Not Found: /favicon.ico
