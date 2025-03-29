@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status
 from .models import Cart, CartItem, Wishlist
-from .serializers import CartItemSerializer, WishlistSerializer , CartSerializer
+from .serializers import CartItemSerializer, WishlistSerializer 
 from product.models import Product
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
@@ -138,7 +138,7 @@ class CompleteOrderView(APIView):
             return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
         
         
-from .models import Order, OrderItem, Coupon, Transaction
+'''from .models import Order, OrderItem, Coupon, Transaction
 from .serializers import OrderSerializer, CouponSerializer, TransactionSerializer
 from django.contrib.auth import get_user_model
 from product.models import Product
@@ -341,4 +341,4 @@ class CancelOrderView(APIView):
         order.status = 'canceled'
         order.save()
 
-        return Response({'status': 'Order canceled'})    
+        return Response({'status': 'Order canceled'})    '''

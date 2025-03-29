@@ -14,16 +14,16 @@ urlpatterns = [
     path('wishlist/remove/', views.RemoveFromWishlistView.as_view(), name='remove_from_wishlist'),
 
     # Order URLs
-    path('orders/', views.OrderListView.as_view(), name='order_list'),
-    path('create/', views.CreateOrderView.as_view(), name='create_order'),
-      path('orders/<int:pk>/', views.OrderDetailView.as_view(), name='order_detail'),
-    path('orders/<int:pk>/ship/', views.ShipOrderView.as_view(), name='ship_order'),
-    path('orders/<int:pk>/cancel/', views.CancelOrderView.as_view(), name='cancel_order'),
+    #path('orders/', views.OrderListView.as_view(), name='order_list'),
+    #path('create/', views.CreateOrderView.as_view(), name='create_order'),
+      #path('orders/<int:pk>/', views.OrderDetailView.as_view(), name='order_detail'),
+    #path('orders/<int:pk>/ship/', views.ShipOrderView.as_view(), name='ship_order'),
+    #path('orders/<int:pk>/cancel/', views.CancelOrderView.as_view(), name='cancel_order'),
 
     # Coupon URLs
-    path('coupons/apply/', views.ApplyCouponView.as_view(), name='apply_coupon'),
+   # path('coupons/apply/', views.ApplyCouponView.as_view(), name='apply_coupon'),
 
     # Checkout/Shipping URLs
-    path('checkout/', views.CheckoutView.as_view(), name='checkout'),
-    path('checkout/payment/', views.ProcessPaymentView.as_view(), name='process_payment'),
+    #path('checkout/', views.CheckoutView.as_view(), name='checkout'),
+    #path('checkout/payment/', views.ProcessPaymentView.as_view(), name='process_payment'),
 ]
