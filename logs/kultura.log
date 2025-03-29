@@ -2575,6 +2575,7 @@ WARNING 2025-03-20 19:40:14,059 log 47062 129781473478336 Not Found: /api/recomm
 WARNING 2025-03-20 19:40:14,102 log 47062 129781462992576 Unauthorized: /home/api/recommendations/
 WARNING 2025-03-20 19:40:14,139 log 47062 129781473478336 Not Found: /api/most-wished-product/
 WARNING 2025-03-20 19:40:14,160 log 47062 129781442021056 Not Found: /api/recommendations/
+<<<<<<< HEAD
 INFO 2025-03-22 15:42:18,207 autoreload 518018 127045254824064 Watching for file changes with StatReloader
 WARNING 2025-03-22 15:44:47,598 log 518018 127045101160128 Not Found: /api/product-page/product-1/
 WARNING 2025-03-22 15:44:47,601 log 518018 127045101160128 Not Found: /api/product-page/product-1/
@@ -3642,3 +3643,18 @@ WARNING 2025-03-28 23:16:00,138 log 348140 125188094035648 Not Found: /orders/
 WARNING 2025-03-28 23:16:00,185 log 348140 125188073064128 Not Found: /orders/
 WARNING 2025-03-28 23:16:13,246 log 348140 125188073064128 Not Found: /orders/
 WARNING 2025-03-28 23:16:13,317 log 348140 125188094035648 Not Found: /orders/
+=======
+>>>>>>> parent of fb2abac (images , login ,use dashboard and so)
+INFO 2025-03-28 23:43:57,480 autoreload 356859 134118089359488 Watching for file changes with StatReloader
+INFO 2025-03-28 23:44:28,603 autoreload 356859 134118089359488 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-28 23:44:29,154 autoreload 357051 124952031940736 Watching for file changes with StatReloader
+INFO 2025-03-28 23:44:45,788 autoreload 357051 124952031940736 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-28 23:44:46,561 autoreload 357234 135607339167872 Watching for file changes with StatReloader
+INFO 2025-03-28 23:45:22,063 autoreload 357234 135607339167872 /home/ye/Desktop/symbiose/vegetables/orders/views.py changed, reloading.
+INFO 2025-03-28 23:45:22,695 autoreload 357459 133801050898560 Watching for file changes with StatReloader
+INFO 2025-03-28 23:45:47,754 autoreload 357459 133801050898560 /home/ye/Desktop/symbiose/vegetables/orders/urls.py changed, reloading.
+INFO 2025-03-28 23:45:48,395 autoreload 357673 124624682721408 Watching for file changes with StatReloader
+WARNING 2025-03-28 23:45:53,329 log 357673 124624595584704 Not Found: /orders/
+WARNING 2025-03-28 23:45:53,392 log 357673 124624606070464 Not Found: /orders/
+INFO 2025-03-29 00:04:53,081 autoreload 357673 124624682721408 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-03-29 00:05:03,153 autoreload 361335 138549572685952 Watching for file changes with StatReloader

@@ -1,9 +1,13 @@
 from rest_framework import serializers
 from .models import Order, OrderItem , Card, Wishlist, Coupon  , CartItem , Cart ,  Promotion
 from product.serializers import ProductSerializer
+<<<<<<< HEAD
 from product.models import Product ,  ProductImage , Category , ProductType
 from rest_framework import serializers
 from .models import Order, OrderItem, Coupon, Transaction
+=======
+from product.models import Product
+>>>>>>> parent of fb2abac (images , login ,use dashboard and so)
 
 class PromotionSerializer(serializers.ModelSerializer):
     class Meta:
@@ -11,35 +15,15 @@ class PromotionSerializer(serializers.ModelSerializer):
         fields = ['id', 'name', 'description', 'image','discount_percentage' ,'link']
         
         
-class ProductImageSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = ProductImage
-        fields = ['id', 'image']       
-        
 '''class HeroPromotionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Promotion
         fields = ['id', 'name', 'description', 'image', 'link']      '''  
-
-class CategorySerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Category
-        fields = ['id', 'name']
-
-class ProductTypeSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = ProductType
-        fields = ['id', 'name']
-        
 class ProductSerializer(serializers.ModelSerializer):
-    images = ProductImageSerializer(many=True, read_only=True)  # Nested serializer for images
-    category = CategorySerializer(read_only=True)  # Nested serializer for category
-    product_type = ProductTypeSerializer(read_only=True)  # Nested serializer for product type
-
     class Meta:
         model = Product
-        fields = ['id', 'name', 'price', 'slug', 'images', 'category', 'product_type']
-        
+        fields = ['id', 'name', 'price', 'slug', 'images']
+
 class CartItemSerializer(serializers.ModelSerializer):
     product = ProductSerializer()
 
@@ -53,11 +37,10 @@ class CartSerializer(serializers.ModelSerializer):
         model = Cart
         fields = ['id', 'user', 'items']
 class WishlistSerializer(serializers.ModelSerializer):
-    images = ProductImageSerializer(many=True, read_only=True)
-    category = CategorySerializer(read_only=True)  # Include category
-    product_type = ProductTypeSerializer(read_only=True)  # Include product type
+    # Since you're serializing products directly, use ProductSerializer
     class Meta:
         model = Product
+<<<<<<< HEAD
         fields = ['id', 'name', 'price', 'slug', 'images', 'category', 'product_type']
         
         
@@ -86,3 +69,6 @@ class TransactionSerializer(serializers.ModelSerializer):
         model = Transaction
         fields = '__all__'
         
+=======
+        fields = ['id', 'name', 'price', 'slug', 'images']
+>>>>>>> parent of fb2abac (images , login ,use dashboard and so)
