@@ -32,7 +32,7 @@ class Category(MPTTModel):
 # Product Model
 from django.db import models
 from django.utils.text import slugify
-
+from django.contrib.auth import get_user_model
 class Product(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField()
@@ -42,6 +42,13 @@ class Product(models.Model):
     category = TreeForeignKey('Category', on_delete=models.SET_NULL, null=True, blank=True)
     gestionnaire = models.ForeignKey(
         Gestionnaire,
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+       # default=1  # Set a default value here
+    )
+    user = models.ForeignKey(
+        get_user_model(),
         on_delete=models.SET_NULL,
         null=True,
         blank=True,

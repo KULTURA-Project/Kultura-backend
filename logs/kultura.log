@@ -3689,3 +3689,58 @@ WARNING 2025-03-29 00:41:46,570 log 369393 132152207345344 Not Found: /api/most-
 WARNING 2025-03-29 00:41:46,571 log 369393 132152228316864 Not Found: /api/recommendations/
 WARNING 2025-03-29 00:41:48,286 log 369393 132152207345344 Not Found: /orders/
 WARNING 2025-03-29 00:41:48,337 log 369393 132152228316864 Not Found: /orders/
+INFO 2025-04-13 21:16:54,045 autoreload 2054485 124993030037632 Watching for file changes with StatReloader
+WARNING 2025-04-13 21:16:56,123 log 2054485 124992863864512 Not Found: /api/recommendations/
+WARNING 2025-04-13 21:16:56,142 log 2054485 124992832407232 Not Found: /api/most-wished-product/
+WARNING 2025-04-13 21:16:56,199 log 2054485 124992863864512 Not Found: /api/most-wished-product/
+WARNING 2025-04-13 21:16:56,252 log 2054485 124992832407232 Not Found: /api/recommendations/
+WARNING 2025-04-13 21:17:33,407 log 2054485 124992620594880 Not Found: /
+WARNING 2025-04-13 21:17:34,691 log 2054485 124992620594880 Not Found: /favicon.ico
+INFO 2025-04-13 21:20:52,413 autoreload 2061014 126569577177216 Watching for file changes with StatReloader
+INFO 2025-04-13 22:10:46,811 reset_db 2141509 124914701811840 Unlinking django.db.backends.sqlite3 database
+INFO 2025-04-13 22:13:55,984 autoreload 2147302 127368898412672 Watching for file changes with StatReloader
+WARNING 2025-04-13 22:13:58,190 log 2147302 127368821737152 Not Found: /api/categories/1/
+WARNING 2025-04-13 22:13:58,191 log 2147302 127368811251392 Not Found: /api/category-products/1/
+WARNING 2025-04-13 22:13:58,200 log 2147302 127368729462464 Not Found: /api/categories/1/
+WARNING 2025-04-13 22:13:58,203 log 2147302 127368811251392 Not Found: /api/category-products/1/
+INFO 2025-04-13 22:42:49,300 autoreload 2196325 125775484690560 Watching for file changes with StatReloader
+INFO 2025-04-14 10:53:40,261 autoreload 32129 123211388321920 Watching for file changes with StatReloader
+INFO 2025-04-14 11:54:38,744 autoreload 135213 132320066039936 Watching for file changes with StatReloader
+WARNING 2025-04-14 11:54:57,471 log 135213 132319876744896 Not Found: /api/most-wished-product/
+WARNING 2025-04-14 11:54:57,479 log 135213 132319979505344 Not Found: /api/recommendations/
+WARNING 2025-04-14 11:54:57,531 log 135213 132319969019584 Not Found: /api/most-wished-product/
+WARNING 2025-04-14 11:54:57,536 log 135213 132319989991104 Unauthorized: /home/api/recommendations/
+WARNING 2025-04-14 11:54:57,587 log 135213 132319887230656 Not Found: /api/recommendations/
+WARNING 2025-04-14 11:54:57,597 log 135213 132319969019584 Unauthorized: /home/api/recommendations/
+WARNING 2025-04-14 11:55:17,558 log 135213 132319969019584 Unauthorized: /orders/cart/
+WARNING 2025-04-14 11:55:17,616 log 135213 132319979505344 Unauthorized: /orders/cart/
+WARNING 2025-04-14 11:55:22,062 log 135213 132319979505344 Unauthorized: /api/customers/profile/
+WARNING 2025-04-14 11:55:22,121 log 135213 132319969019584 Unauthorized: /api/customers/profile/
+WARNING 2025-04-14 11:55:24,766 log 135213 132319664932544 Unauthorized: /api/customers/login/
+WARNING 2025-04-14 11:55:31,834 log 135213 132319664932544 Unauthorized: /api/customers/login/
+WARNING 2025-04-14 11:55:33,684 log 135213 132319664932544 Unauthorized: /api/customers/login/
+WARNING 2025-04-14 11:55:35,022 log 135213 132319664932544 Unauthorized: /api/customers/login/
+WARNING 2025-04-14 11:55:47,905 log 135213 132319979505344 Not Found: /orders/
+WARNING 2025-04-14 11:55:47,955 log 135213 132319969019584 Not Found: /orders/
+ERROR 2025-04-14 11:55:56,231 log 135213 132319887230656 Internal Server Error: /orders/wishlist/
+ERROR 2025-04-14 11:55:56,291 log 135213 132319887230656 Internal Server Error: /orders/wishlist/
+WARNING 2025-04-14 11:56:06,113 log 135213 132319876744896 Not Found: /api/most-wished-product/
+WARNING 2025-04-14 11:56:06,168 log 135213 132319887230656 Not Found: /api/recommendations/
+WARNING 2025-04-14 11:56:06,207 log 135213 132319969019584 Not Found: /api/most-wished-product/
+WARNING 2025-04-14 11:56:06,234 log 135213 132319876744896 Not Found: /api/recommendations/
+WARNING 2025-04-14 11:59:27,741 log 135213 132319989991104 Not Found: /api/most-wished-product/
+WARNING 2025-04-14 11:59:27,782 log 135213 132320000476864 Not Found: /api/recommendations/
+WARNING 2025-04-14 11:59:27,817 log 135213 132319876744896 Not Found: /api/most-wished-product/
+WARNING 2025-04-14 11:59:27,849 log 135213 132320000476864 Not Found: /api/recommendations/
+WARNING 2025-04-14 11:59:28,943 log 135213 132319887230656 Not Found: /api/most-wished-product/
+WARNING 2025-04-14 11:59:28,967 log 135213 132319887230656 Not Found: /api/recommendations/
+WARNING 2025-04-14 11:59:28,991 log 135213 132320000476864 Not Found: /api/most-wished-product/
+WARNING 2025-04-14 11:59:29,072 log 135213 132319979505344 Not Found: /api/recommendations/
+WARNING 2025-04-14 11:59:30,089 log 135213 132320000476864 Not Found: /api/most-wished-product/
+WARNING 2025-04-14 11:59:30,193 log 135213 132319989991104 Not Found: /api/most-wished-product/
+WARNING 2025-04-14 11:59:30,201 log 135213 132319887230656 Not Found: /api/recommendations/
+WARNING 2025-04-14 11:59:30,285 log 135213 132319989991104 Not Found: /api/recommendations/
+WARNING 2025-04-14 11:59:31,022 log 135213 132320000476864 Not Found: /api/most-wished-product/
+WARNING 2025-04-14 11:59:31,073 log 135213 132319876744896 Not Found: /api/recommendations/
+WARNING 2025-04-14 11:59:31,108 log 135213 132319979505344 Not Found: /api/most-wished-product/
+WARNING 2025-04-14 11:59:31,143 log 135213 132319887230656 Not Found: /api/recommendations/
