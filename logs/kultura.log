@@ -3765,3 +3765,6 @@ WARNING 2025-05-12 18:35:16,996 log 704138 124894987675328 Not Found: /api/most-
 WARNING 2025-05-12 18:35:17,026 log 704138 124894996068032 Not Found: /api/recommendations/
 WARNING 2025-05-12 18:38:12,241 log 704138 124894996068032 Not Found: /orders/
 WARNING 2025-05-12 18:38:12,289 log 704138 124894746498752 Not Found: /orders/
+INFO 2025-05-14 18:27:55,827 autoreload 527061 137760783560832 Watching for file changes with StatReloader
+INFO 2025-05-14 18:33:23,988 autoreload 527061 137760783560832 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-05-14 18:33:25,200 autoreload 543915 136350554714240 Watching for file changes with StatReloader

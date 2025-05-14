@@ -53,3 +53,16 @@ class WishlistSerializer(serializers.ModelSerializer):
     class Meta:
         model = Product
         fields = ['id', 'name', 'price', 'slug', 'images', 'category', 'product_type']
+class OrderItemSerializer(serializers.ModelSerializer):
+    product = ProductSerializer(read_only=True)
+
+    class Meta:
+        model = OrderItem
+        fields = ['id', 'product', 'quantity', 'price']        
+class OrderSerializer(serializers.ModelSerializer):
+    items = OrderItemSerializer(many=True, read_only=True)
+    customer = serializers.StringRelatedField()  # or a nested user serializer
+
+    class Meta:
+        model = Order
+        fields = ['id', 'customer', 'total_price', 'status', 'created_at', 'items']        

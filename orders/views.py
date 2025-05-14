@@ -3,13 +3,13 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status
 from .models import Cart, CartItem, Wishlist
-from .serializers import CartItemSerializer, WishlistSerializer 
+from .serializers import CartItemSerializer, WishlistSerializer , OrderSerializer
 from product.models import Product
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
-from .models import Wishlist, Product , Order ,OrderItem   , Transaction
+from .models import Wishlist, Product , Order ,OrderItem   , Transaction, OrderState
 from django.middleware.csrf import get_token
 from django.http import JsonResponse
 
@@ -120,6 +120,40 @@ class UpdateCartItemView(APIView):
         except Exception as e:
             return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)                 
         
+        
+        
+class CreateOrderView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request):
+        user = request.user
+        shipping_address = request.data.get('shipping_address')
+        cart = Cart.objects.get(user=user)
+
+        if not cart.items.exists():
+            return Response({"error": "Cart is empty"}, status=400)
+
+        total_price = sum(item.product.price * item.quantity for item in cart.items.all())
+
+        order = Order.objects.create(
+            customer=user,
+            total_price=total_price,
+            shipping_address=shipping_address,
+            status=OrderState.PENDING.value
+        )
+
+        for item in cart.items.all():
+            OrderItem.objects.create(
+                order=order,
+                product=item.product,
+                quantity=item.quantity,
+                price=item.product.price
+            )
+
+        cart.items.all().delete()
+
+        serializer = OrderSerializer(order)
+        return Response(serializer.data, status=201)
         
         
 class CompleteOrderView(APIView):
