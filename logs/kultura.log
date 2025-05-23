@@ -5742,3 +5742,5 @@ WARNING 2025-05-23 21:00:56,745 log 1033790 128205209974464 Not Found: /api/most
 WARNING 2025-05-23 21:00:56,809 log 1033790 128205722719936 Not Found: /api/recommendations/
 WARNING 2025-05-23 21:01:06,456 log 1033790 128205226759872 Not Found: /api/most-wished-product/
 WARNING 2025-05-23 21:01:06,469 log 1033790 128205226759872 Not Found: /api/recommendations/
+INFO 2025-05-23 22:26:28,394 autoreload 1033790 128205908627584 /home/ye/Desktop/symbiose/vegetables/product/admin.py changed, reloading.
+INFO 2025-05-23 22:26:29,185 autoreload 1190693 127232961372288 Watching for file changes with StatReloader

@@ -106,7 +106,7 @@ class ProductAdmin(admin.ModelAdmin):
     def availability_status(self, obj):
         return obj.get_availability_display()
     availability_status.short_description = 'Status'
-
+https://meet.google.com/fjt-vtfx-pyx
 class VariantValueInline(admin.TabularInline):
     model = VariantValue
     extra = 1
