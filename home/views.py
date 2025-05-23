@@ -22,7 +22,7 @@ class FeaturedProductView(APIView):
 class PromotionView(APIView):
     def get(self, request):
         promotions = Promotion.objects.filter(active=True)
-        serializer = PromotionSerializer(promotions, many=True)
+        serializer = PromotionSerializer(promotions, many=True, context={'request': request})
         return Response(serializer.data)
 
 class MostWishedProductView(APIView):
@@ -44,12 +44,12 @@ class RecommendationsView(APIView):
             serializer = ProductSerializer(recommended_products, many=True)
             return Response(serializer.data)
         return Response([])
-    
-class HeroPromotionView(APIView): # Hero promotion only
+class HeroPromotionView(APIView):  # Hero promotion only
     def get(self, request):
         promotion = Promotion.objects.filter(active=True, is_hero=True).first()
-        serializer = PromotionSerializer(promotion)
+        serializer = PromotionSerializer(promotion, context={'request': request})
         return Response(serializer.data)
+
         
 class FeaturedCategoriesView(APIView):
     def get(self, request):

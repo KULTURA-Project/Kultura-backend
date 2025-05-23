@@ -3921,3 +3921,1824 @@ WARNING 2025-05-18 22:40:01,292 log 50743 127036542678720 Not Found: /orders/
 WARNING 2025-05-18 22:40:01,328 log 50743 127036500715200 Not Found: /orders/
 WARNING 2025-05-18 22:43:13,292 log 50743 127036500715200 Not Found: /orders/
 WARNING 2025-05-18 22:43:13,343 log 50743 127036542678720 Not Found: /orders/
+INFO 2025-05-23 18:37:26,882 autoreload 791405 135331050451072 Watching for file changes with StatReloader
+WARNING 2025-05-23 18:37:36,331 log 791405 135330943444672 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 18:37:36,344 log 791405 135330977015488 Not Found: /api/recommendations/
+WARNING 2025-05-23 18:37:36,400 log 791405 135330985408192 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 18:37:36,450 log 791405 135330951837376 Not Found: /api/recommendations/
+WARNING 2025-05-23 18:57:51,137 log 791405 135330985408192 Not Found: /orders/
+WARNING 2025-05-23 18:57:51,189 log 791405 135330510395072 Not Found: /orders/
+WARNING 2025-05-23 18:58:45,338 log 791405 135330960230080 Not Found: /api/recommendations/
+WARNING 2025-05-23 18:58:45,354 log 791405 135330968622784 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 18:58:45,413 log 791405 135330502002368 Not Found: /api/recommendations/
+WARNING 2025-05-23 18:58:45,428 log 791405 135330985408192 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 18:59:01,142 log 791405 135330968622784 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 18:59:01,198 log 791405 135330968622784 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 18:59:01,218 log 791405 135330960230080 Not Found: /api/recommendations/
+WARNING 2025-05-23 18:59:01,283 log 791405 135330968622784 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:03:31,581 log 791405 135330968622784 Not Found: /
+INFO 2025-05-23 19:04:58,244 autoreload 838281 127055557275776 Watching for file changes with StatReloader
+ERROR 2025-05-23 19:05:24,306 log 838281 127055492544192 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 265, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 119, in index
+    **self.each_context(request),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 96, in each_context
+    "sidebar_navigation": self.get_sidebar_list(request)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 232, in get_sidebar_list
+    item["active"] = self._get_is_active(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 384, in _get_is_active
+    link = str(link)
+           ^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+               ^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'orders_customer_changelist' not found. 'orders_customer_changelist' is not a valid view function or pattern name.
+INFO 2025-05-23 19:06:28,627 autoreload 838281 127055557275776 /home/ye/Desktop/symbiose/vegetables/kultura/settings.py changed, reloading.
+INFO 2025-05-23 19:06:29,372 autoreload 841128 136826911801472 Watching for file changes with StatReloader
+ERROR 2025-05-23 19:06:29,950 log 841128 136826781169344 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 265, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 119, in index
+    **self.each_context(request),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 96, in each_context
+    "sidebar_navigation": self.get_sidebar_list(request)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 232, in get_sidebar_list
+    item["active"] = self._get_is_active(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 384, in _get_is_active
+    link = str(link)
+           ^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+               ^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'orders_customer_changelist' not found. 'orders_customer_changelist' is not a valid view function or pattern name.
+INFO 2025-05-23 19:06:45,284 autoreload 841128 136826911801472 /home/ye/Desktop/symbiose/vegetables/kultura/settings.py changed, reloading.
+INFO 2025-05-23 19:06:45,879 autoreload 841780 136637852643456 Watching for file changes with StatReloader
+INFO 2025-05-23 19:07:05,779 autoreload 841780 136637852643456 /home/ye/Desktop/symbiose/vegetables/kultura/settings.py changed, reloading.
+INFO 2025-05-23 19:07:06,475 autoreload 842376 129027492040832 Watching for file changes with StatReloader
+ERROR 2025-05-23 19:07:07,481 log 842376 129027428841152 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 265, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 119, in index
+    **self.each_context(request),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 96, in each_context
+    "sidebar_navigation": self.get_sidebar_list(request)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 232, in get_sidebar_list
+    item["active"] = self._get_is_active(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 384, in _get_is_active
+    link = str(link)
+           ^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+               ^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'orders_customer_changelist' not found. 'orders_customer_changelist' is not a valid view function or pattern name.
+INFO 2025-05-23 19:07:17,254 autoreload 842376 129027492040832 /home/ye/Desktop/symbiose/vegetables/kultura/settings.py changed, reloading.
+INFO 2025-05-23 19:07:18,254 autoreload 842889 126164848865408 Watching for file changes with StatReloader
+ERROR 2025-05-23 19:07:19,607 log 842889 126164784903872 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 265, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 119, in index
+    **self.each_context(request),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 96, in each_context
+    "sidebar_navigation": self.get_sidebar_list(request)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 232, in get_sidebar_list
+    item["active"] = self._get_is_active(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 384, in _get_is_active
+    link = str(link)
+           ^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+               ^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'orders_customer_changelist' not found. 'orders_customer_changelist' is not a valid view function or pattern name.
+INFO 2025-05-23 19:07:32,147 autoreload 842889 126164848865408 /home/ye/Desktop/symbiose/vegetables/kultura/settings.py changed, reloading.
+INFO 2025-05-23 19:07:32,780 autoreload 843447 137405998096512 Watching for file changes with StatReloader
+INFO 2025-05-23 19:08:06,459 autoreload 843447 137405998096512 /home/ye/Desktop/symbiose/vegetables/kultura/settings.py changed, reloading.
+INFO 2025-05-23 19:08:07,152 autoreload 844553 138455718490240 Watching for file changes with StatReloader
+INFO 2025-05-23 19:08:17,722 autoreload 844553 138455718490240 /home/ye/Desktop/symbiose/vegetables/kultura/settings.py changed, reloading.
+INFO 2025-05-23 19:08:18,422 autoreload 845013 138853085061248 Watching for file changes with StatReloader
+INFO 2025-05-23 19:08:19,764 autoreload 845013 138853085061248 /home/ye/Desktop/symbiose/vegetables/kultura/settings.py changed, reloading.
+INFO 2025-05-23 19:08:20,542 autoreload 845197 125621675171968 Watching for file changes with StatReloader
+ERROR 2025-05-23 19:08:21,703 log 845197 125621543892672 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 265, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 119, in index
+    **self.each_context(request),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 96, in each_context
+    "sidebar_navigation": self.get_sidebar_list(request)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 232, in get_sidebar_list
+    item["active"] = self._get_is_active(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 384, in _get_is_active
+    link = str(link)
+           ^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+               ^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'orders_customer_changelist' not found. 'orders_customer_changelist' is not a valid view function or pattern name.
+ERROR 2025-05-23 19:08:22,406 log 845197 125621543892672 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 265, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 119, in index
+    **self.each_context(request),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 96, in each_context
+    "sidebar_navigation": self.get_sidebar_list(request)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 232, in get_sidebar_list
+    item["active"] = self._get_is_active(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 384, in _get_is_active
+    link = str(link)
+           ^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+               ^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'orders_customer_changelist' not found. 'orders_customer_changelist' is not a valid view function or pattern name.
+INFO 2025-05-23 19:08:39,551 autoreload 845197 125621675171968 /home/ye/Desktop/symbiose/vegetables/kultura/settings.py changed, reloading.
+INFO 2025-05-23 19:08:40,395 autoreload 845832 138652556198016 Watching for file changes with StatReloader
+ERROR 2025-05-23 19:08:40,790 log 845832 138652492494528 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 265, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 119, in index
+    **self.each_context(request),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 96, in each_context
+    "sidebar_navigation": self.get_sidebar_list(request)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 232, in get_sidebar_list
+    item["active"] = self._get_is_active(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/unfold/sites.py", line 384, in _get_is_active
+    link = str(link)
+           ^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+               ^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'orders_customer_changelist' not found. 'orders_customer_changelist' is not a valid view function or pattern name.
+INFO 2025-05-23 19:08:44,856 autoreload 845832 138652556198016 /home/ye/Desktop/symbiose/vegetables/kultura/settings.py changed, reloading.
+INFO 2025-05-23 19:08:45,825 autoreload 846077 133876723753088 Watching for file changes with StatReloader
+INFO 2025-05-23 19:09:22,462 autoreload 846077 133876723753088 /home/ye/Desktop/symbiose/vegetables/kultura/settings.py changed, reloading.
+INFO 2025-05-23 19:09:40,264 autoreload 847826 130099448176768 Watching for file changes with StatReloader
+INFO 2025-05-23 19:13:54,876 autoreload 847826 130099448176768 /home/ye/Desktop/symbiose/vegetables/kultura/settings.py changed, reloading.
+INFO 2025-05-23 19:13:55,645 autoreload 855720 135476456329344 Watching for file changes with StatReloader
+INFO 2025-05-23 19:14:34,722 autoreload 855720 135476456329344 /home/ye/Desktop/symbiose/vegetables/kultura/settings.py changed, reloading.
+INFO 2025-05-23 19:14:35,611 autoreload 856938 133341312069760 Watching for file changes with StatReloader
+INFO 2025-05-23 19:14:56,029 autoreload 858056 126547334799488 Watching for file changes with StatReloader
+WARNING 2025-05-23 19:16:13,744 log 858056 126546555684544 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:16:13,783 log 858056 126547134486208 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:16:13,808 log 858056 126546564077248 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:16:13,873 log 858056 126547134486208 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:19:25,741 log 858056 126546555684544 Not Found: /orders/
+WARNING 2025-05-23 19:19:25,791 log 858056 126546580862656 Not Found: /orders/
+WARNING 2025-05-23 19:19:26,802 log 858056 126546564077248 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:19:26,845 log 858056 126546564077248 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:19:26,929 log 858056 126546580862656 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:19:26,945 log 858056 126547134486208 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:20:05,258 log 858056 126546580862656 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:20:05,309 log 858056 126547142878912 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:20:05,362 log 858056 126546564077248 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:20:05,406 log 858056 126546580862656 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:21:23,253 log 858056 126546564077248 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:21:23,291 log 858056 126546555684544 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:21:23,335 log 858056 126547142878912 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:21:23,372 log 858056 126546564077248 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:21:25,204 log 858056 126546572469952 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:21:25,237 log 858056 126546572469952 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:21:25,264 log 858056 126547142878912 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:21:25,319 log 858056 126547142878912 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:22:30,865 log 858056 126547134486208 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:22:30,935 log 858056 126546555684544 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:22:30,980 log 858056 126547142878912 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:22:31,009 log 858056 126546572469952 Not Found: /api/recommendations/
+INFO 2025-05-23 19:25:45,264 autoreload 858056 126547334799488 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-05-23 19:25:45,903 autoreload 877269 136852316164224 Watching for file changes with StatReloader
+WARNING 2025-05-23 19:25:48,225 log 877269 136852002559680 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:25:48,281 log 877269 136852019345088 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:25:48,337 log 877269 136852251080384 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:25:48,385 log 877269 136852002559680 Not Found: /api/recommendations/
+INFO 2025-05-23 19:26:25,003 autoreload 877269 136852316164224 /home/ye/Desktop/symbiose/vegetables/home/views.py changed, reloading.
+INFO 2025-05-23 19:26:25,627 autoreload 878738 135798598684800 Watching for file changes with StatReloader
+INFO 2025-05-23 19:26:31,225 autoreload 878738 135798598684800 /home/ye/Desktop/symbiose/vegetables/home/views.py changed, reloading.
+INFO 2025-05-23 19:26:31,818 autoreload 879013 134117442326656 Watching for file changes with StatReloader
+WARNING 2025-05-23 19:26:35,304 log 879013 134116997592768 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:26:35,362 log 879013 134117351999168 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:26:35,396 log 879013 134117343606464 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:26:35,420 log 879013 134117351999168 Not Found: /api/recommendations/
+ERROR 2025-05-23 19:26:35,466 log 879013 134117368784576 Internal Server Error: /home/api/promotions/hero/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/home/views.py", line 52, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+           ^
+TypeError: 'Promotion' object is not iterable
+ERROR 2025-05-23 19:26:35,560 log 879013 134117351999168 Internal Server Error: /home/api/promotions/hero/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/home/views.py", line 52, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+           ^
+TypeError: 'Promotion' object is not iterable
+WARNING 2025-05-23 19:26:38,735 log 879013 134117343606464 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:26:38,762 log 879013 134117343606464 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:26:38,816 log 879013 134117368784576 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:26:38,848 log 879013 134117351999168 Not Found: /api/recommendations/
+ERROR 2025-05-23 19:26:38,903 log 879013 134117360391872 Internal Server Error: /home/api/promotions/hero/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/home/views.py", line 52, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+           ^
+TypeError: 'Promotion' object is not iterable
+ERROR 2025-05-23 19:26:38,969 log 879013 134117351999168 Internal Server Error: /home/api/promotions/hero/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/home/views.py", line 52, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+           ^
+TypeError: 'Promotion' object is not iterable
+INFO 2025-05-23 19:27:15,332 autoreload 879013 134117442326656 /home/ye/Desktop/symbiose/vegetables/home/views.py changed, reloading.
+INFO 2025-05-23 19:27:16,026 autoreload 880429 123937028112512 Watching for file changes with StatReloader
+INFO 2025-05-23 19:27:46,371 autoreload 880429 123937028112512 /home/ye/Desktop/symbiose/vegetables/home/views.py changed, reloading.
+INFO 2025-05-23 19:27:46,994 autoreload 881311 127626518163584 Watching for file changes with StatReloader
+WARNING 2025-05-23 19:27:50,614 log 881311 127626203088576 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:27:50,671 log 881311 127626211481280 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:27:50,691 log 881311 127626219873984 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:27:50,746 log 881311 127626211481280 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:30:42,241 log 881311 127626194695872 Not Found: /home/api//promotions/488509093_648616151252259_6695409067411352890_n.jpg
+WARNING 2025-05-23 19:30:47,181 log 881311 127626194695872 Not Found: /home/api/promotions/488509093_648616151252259_6695409067411352890_n.jpg
+WARNING 2025-05-23 19:31:17,193 log 881311 127626194695872 Not Found: /home/api/promotions/488509093_648616151252259_6695409067411352890_n.jpg
+INFO 2025-05-23 19:31:42,701 autoreload 881311 127626518163584 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-05-23 19:31:43,425 autoreload 888093 137812308062336 Watching for file changes with StatReloader
+INFO 2025-05-23 19:32:08,762 autoreload 888093 137812308062336 /home/ye/Desktop/symbiose/vegetables/home/views.py changed, reloading.
+INFO 2025-05-23 19:32:09,475 autoreload 888946 131843991396480 Watching for file changes with StatReloader
+WARNING 2025-05-23 19:32:12,912 log 888946 131843542214336 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:32:12,986 log 888946 131843901867712 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:32:12,992 log 888946 131843542214336 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:32:13,070 log 888946 131843550607040 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:34:56,760 log 888946 131843901867712 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:34:56,825 log 888946 131843901867712 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:34:56,856 log 888946 131843918653120 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:34:56,902 log 888946 131843927045824 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:37:01,079 log 888946 131843550607040 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:37:01,148 log 888946 131843910260416 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:37:01,191 log 888946 131843901867712 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:37:01,217 log 888946 131843550607040 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:38:48,924 log 888946 131843533821632 Not Found: /api/products/2
+WARNING 2025-05-23 19:38:55,117 log 888946 131843533821632 Not Found: /api/products/24
+WARNING 2025-05-23 19:42:15,153 log 888946 131843533821632 Not Found: /api/products/{id}/
+WARNING 2025-05-23 19:50:54,367 log 888946 131843901867712 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:50:54,411 log 888946 131843550607040 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:50:54,447 log 888946 131843925997248 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:50:54,476 log 888946 131843542214336 Not Found: /api/recommendations/
+INFO 2025-05-23 19:56:14,739 autoreload 888946 131843991396480 /home/ye/Desktop/symbiose/vegetables/orders/serializers.py changed, reloading.
+INFO 2025-05-23 19:56:15,621 autoreload 930577 123255154266240 Watching for file changes with StatReloader
+WARNING 2025-05-23 19:56:33,091 log 930577 123254979143360 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:56:33,130 log 930577 123254979143360 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:56:33,173 log 930577 123254995928768 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:56:33,260 log 930577 123254995928768 Not Found: /api/recommendations/
+ERROR 2025-05-23 19:56:33,278 log 930577 123255012714176 Internal Server Error: /home/api/promotions/hero/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/home/views.py", line 51, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 571, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/fields.py", line 1870, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/orders/serializers.py", line 20, in get_image
+    return request.build_absolute_uri(obj.image.url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'build_absolute_uri'
+ERROR 2025-05-23 19:56:33,407 log 930577 123255021106880 Internal Server Error: /home/api/promotions/hero/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/home/views.py", line 51, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 571, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/fields.py", line 1870, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/orders/serializers.py", line 20, in get_image
+    return request.build_absolute_uri(obj.image.url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'build_absolute_uri'
+WARNING 2025-05-23 19:56:44,666 log 930577 123254987536064 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:56:44,738 log 930577 123254987536064 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:56:44,755 log 930577 123254995928768 Not Found: /api/most-wished-product/
+ERROR 2025-05-23 19:56:44,781 log 930577 123254979143360 Internal Server Error: /home/api/promotions/hero/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/home/views.py", line 51, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 571, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/fields.py", line 1870, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/orders/serializers.py", line 20, in get_image
+    return request.build_absolute_uri(obj.image.url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'build_absolute_uri'
+WARNING 2025-05-23 19:56:44,845 log 930577 123254987536064 Not Found: /api/recommendations/
+ERROR 2025-05-23 19:56:44,892 log 930577 123254979143360 Internal Server Error: /home/api/promotions/hero/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/home/views.py", line 51, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 571, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/fields.py", line 1870, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/orders/serializers.py", line 20, in get_image
+    return request.build_absolute_uri(obj.image.url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'build_absolute_uri'
+WARNING 2025-05-23 19:56:55,639 log 930577 123255012714176 Not Found: /orders/
+WARNING 2025-05-23 19:56:55,707 log 930577 123254979143360 Not Found: /orders/
+ERROR 2025-05-23 19:57:28,418 log 930577 123254968653504 Internal Server Error: /home/api/promotions/hero/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/home/views.py", line 51, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 571, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/fields.py", line 1870, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/orders/serializers.py", line 20, in get_image
+    return request.build_absolute_uri(obj.image.url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'build_absolute_uri'
+ERROR 2025-05-23 19:58:17,473 log 930577 123254968653504 Internal Server Error: /home/api/promotions/hero/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/home/views.py", line 51, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 571, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/rest_framework/fields.py", line 1870, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/orders/serializers.py", line 20, in get_image
+    return request.build_absolute_uri(obj.image.url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'build_absolute_uri'
+INFO 2025-05-23 19:59:34,108 autoreload 930577 123255154266240 /home/ye/Desktop/symbiose/vegetables/home/views.py changed, reloading.
+INFO 2025-05-23 19:59:34,871 autoreload 936503 126974353096832 Watching for file changes with StatReloader
+WARNING 2025-05-23 19:59:38,183 log 936503 126974039148224 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:59:38,239 log 936503 126974039148224 Not Found: /api/recommendations/
+WARNING 2025-05-23 19:59:38,272 log 936503 126974288721600 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 19:59:38,351 log 936503 126974288721600 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:05:43,280 log 936503 126973636495040 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:05:43,293 log 936503 126973653280448 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:05:43,314 log 936503 126973644887744 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:05:43,361 log 936503 126974013970112 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:06:03,053 log 936503 126973644887744 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:06:03,065 log 936503 126973644887744 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:06:03,085 log 936503 126973661673152 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:06:03,238 log 936503 126973661673152 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:06:03,247 log 936503 126973661673152 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:06:03,268 log 936503 126973636495040 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:06:03,321 log 936503 126973636495040 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:14:25,933 log 936503 126974055933632 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:14:25,953 log 936503 126974013970112 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:14:25,964 log 936503 126974288721600 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:14:26,014 log 936503 126974288721600 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:15:44,774 log 936503 126973661673152 Not Found: /orders/
+WARNING 2025-05-23 20:15:44,825 log 936503 126974013970112 Not Found: /orders/
+WARNING 2025-05-23 20:16:41,017 log 936503 126974055933632 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:16:41,030 log 936503 126974013970112 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:16:41,039 log 936503 126974022362816 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:16:41,087 log 936503 126974013970112 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:20:59,873 log 936503 126973628102336 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:20:59,887 log 936503 126973628102336 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:20:59,912 log 936503 126974288721600 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:20:59,966 log 936503 126974288721600 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:21:34,223 log 936503 126973661673152 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:21:34,239 log 936503 126973661673152 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:21:34,257 log 936503 126974013970112 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:21:34,308 log 936503 126974013970112 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:21:36,143 log 936503 126973628102336 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:21:36,175 log 936503 126974022362816 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:21:36,183 log 936503 126974288721600 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:21:36,244 log 936503 126974013970112 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:23:50,926 log 936503 126974022362816 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:23:50,945 log 936503 126973661673152 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:23:50,955 log 936503 126974022362816 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:23:51,003 log 936503 126973661673152 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:24:23,895 log 936503 126974022362816 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:24:23,912 log 936503 126974055933632 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:24:23,940 log 936503 126974013970112 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:24:23,967 log 936503 126973628102336 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:25:00,711 log 936503 126974013970112 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:25:00,727 log 936503 126974013970112 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:25:00,751 log 936503 126973661673152 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:25:00,803 log 936503 126974022362816 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:27:37,746 log 936503 126974055933632 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:27:37,764 log 936503 126974022362816 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:27:37,785 log 936503 126974288721600 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:27:37,819 log 936503 126974022362816 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:28:40,109 log 936503 126973628102336 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:28:40,125 log 936503 126973661673152 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:28:40,136 log 936503 126974288721600 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:28:40,190 log 936503 126974288721600 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:29:53,207 log 936503 126974055933632 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:29:53,215 log 936503 126974055933632 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:29:53,231 log 936503 126974022362816 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:29:53,285 log 936503 126974022362816 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:30:24,673 log 936503 126973661673152 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:30:24,678 log 936503 126973661673152 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:30:24,706 log 936503 126974022362816 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:30:24,753 log 936503 126973628102336 Not Found: /api/recommendations/
+ERROR 2025-05-23 20:35:33,260 log 936503 126974022362816 Internal Server Error: /admin/product/product/300/change/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: unfold/widgets/textarea.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1081, in render
+    return render_value_in_context(output, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1058, in render_value_in_context
+    value = str(value)
+            ^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/utils.py", line 79, in __str__
+    return self.as_widget()
+           ^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/boundfield.py", line 108, in as_widget
+    return widget.render(
+           ^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/widgets.py", line 330, in render
+    return self._render(self.template_name, context, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/widgets.py", line 335, in _render
+    return mark_safe(renderer.render(template_name, context))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/renderers.py", line 30, in render
+    template = self.get_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/renderers.py", line 36, in get_template
+    return self.engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 81, in get_template
+    reraise(exc, self)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: unfold/widgets/textarea.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 109, in render
+    reraise(exc, self.backend)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: unfold/widgets/textarea.html
+ERROR 2025-05-23 20:35:41,115 log 936503 126974022362816 Internal Server Error: /admin/product/product/295/change/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: unfold/widgets/textarea.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1081, in render
+    return render_value_in_context(output, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1058, in render_value_in_context
+    value = str(value)
+            ^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/utils.py", line 79, in __str__
+    return self.as_widget()
+           ^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/boundfield.py", line 108, in as_widget
+    return widget.render(
+           ^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/widgets.py", line 330, in render
+    return self._render(self.template_name, context, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/widgets.py", line 335, in _render
+    return mark_safe(renderer.render(template_name, context))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/renderers.py", line 30, in render
+    template = self.get_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/renderers.py", line 36, in get_template
+    return self.engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 81, in get_template
+    reraise(exc, self)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: unfold/widgets/textarea.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 109, in render
+    reraise(exc, self.backend)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: unfold/widgets/textarea.html
+INFO 2025-05-23 20:37:11,129 autoreload 936503 126974353096832 /home/ye/Desktop/symbiose/vegetables/product/admin.py changed, reloading.
+INFO 2025-05-23 20:37:11,719 autoreload 1005489 133749528768640 Watching for file changes with StatReloader
+INFO 2025-05-23 20:40:09,433 autoreload 1011119 130905245675648 Watching for file changes with StatReloader
+ERROR 2025-05-23 20:40:27,753 log 1011119 130905180993216 Internal Server Error: /admin/product/product/295/change/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: unfold/widgets/related_widget_wrapper.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1081, in render
+    return render_value_in_context(output, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1058, in render_value_in_context
+    value = str(value)
+            ^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/utils.py", line 79, in __str__
+    return self.as_widget()
+           ^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/boundfield.py", line 108, in as_widget
+    return widget.render(
+           ^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/widgets.py", line 330, in render
+    return self._render(self.template_name, context, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/widgets.py", line 335, in _render
+    return mark_safe(renderer.render(template_name, context))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/renderers.py", line 30, in render
+    template = self.get_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/renderers.py", line 36, in get_template
+    return self.engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 81, in get_template
+    reraise(exc, self)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: unfold/widgets/related_widget_wrapper.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 109, in render
+    reraise(exc, self.backend)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: unfold/widgets/related_widget_wrapper.html
+WARNING 2025-05-23 20:42:56,533 log 1011119 130905083467456 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:42:56,548 log 1011119 130905058289344 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:42:56,589 log 1011119 130905083467456 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:42:56,618 log 1011119 130905066682048 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:47:45,304 log 1011119 130905058289344 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:47:45,333 log 1011119 130905058289344 Not Found: /api/recommendations/
+ERROR 2025-05-23 20:49:24,579 log 1011119 130905049896640 Internal Server Error: /admin/product/product/295/change/
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: unfold/widgets/related_widget_wrapper.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1081, in render
+    return render_value_in_context(output, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/base.py", line 1058, in render_value_in_context
+    value = str(value)
+            ^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/utils.py", line 79, in __str__
+    return self.as_widget()
+           ^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/boundfield.py", line 108, in as_widget
+    return widget.render(
+           ^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/widgets.py", line 330, in render
+    return self._render(self.template_name, context, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/widgets.py", line 335, in _render
+    return mark_safe(renderer.render(template_name, context))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/renderers.py", line 30, in render
+    template = self.get_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/forms/renderers.py", line 36, in get_template
+    return self.engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 81, in get_template
+    reraise(exc, self)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: unfold/widgets/related_widget_wrapper.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 109, in render
+    reraise(exc, self.backend)
+  File "/home/ye/Desktop/symbiose/vegetables/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: unfold/widgets/related_widget_wrapper.html
+INFO 2025-05-23 20:50:13,050 autoreload 1011119 130905245675648 /home/ye/Desktop/symbiose/vegetables/product/admin.py changed, reloading.
+INFO 2025-05-23 20:50:13,484 autoreload 1029906 136722361143424 Watching for file changes with StatReloader
+INFO 2025-05-23 20:51:05,588 autoreload 1029906 136722361143424 /home/ye/Desktop/symbiose/vegetables/product/admin.py changed, reloading.
+INFO 2025-05-23 20:51:06,139 autoreload 1031677 125020554825856 Watching for file changes with StatReloader
+INFO 2025-05-23 20:51:22,632 autoreload 1031677 125020554825856 /home/ye/Desktop/symbiose/vegetables/product/admin.py changed, reloading.
+INFO 2025-05-23 20:51:23,060 autoreload 1032246 132036455469184 Watching for file changes with StatReloader
+INFO 2025-05-23 20:51:29,338 autoreload 1032246 132036455469184 /home/ye/Desktop/symbiose/vegetables/product/admin.py changed, reloading.
+INFO 2025-05-23 20:51:29,727 autoreload 1032551 127141287293056 Watching for file changes with StatReloader
+INFO 2025-05-23 20:51:49,196 autoreload 1032551 127141287293056 /home/ye/Desktop/symbiose/vegetables/product/admin.py changed, reloading.
+INFO 2025-05-23 20:51:49,554 autoreload 1033153 131938102177920 Watching for file changes with StatReloader
+INFO 2025-05-23 20:52:00,818 autoreload 1033153 131938102177920 /home/ye/Desktop/symbiose/vegetables/product/admin.py changed, reloading.
+INFO 2025-05-23 20:52:01,177 autoreload 1033550 132394161754240 Watching for file changes with StatReloader
+INFO 2025-05-23 20:52:06,421 autoreload 1033550 132394161754240 /home/ye/Desktop/symbiose/vegetables/product/admin.py changed, reloading.
+INFO 2025-05-23 20:52:06,831 autoreload 1033790 128205908627584 Watching for file changes with StatReloader
+WARNING 2025-05-23 20:52:42,435 log 1033790 128205209974464 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:52:42,453 log 1033790 128205243545280 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:52:42,460 log 1033790 128205235152576 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:52:42,519 log 1033790 128205235152576 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:52:49,318 log 1033790 128205226759872 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:52:49,335 log 1033790 128205226759872 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:52:49,350 log 1033790 128205218367168 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:52:49,408 log 1033790 128205218367168 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:52:50,178 log 1033790 128205218367168 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:52:50,186 log 1033790 128205218367168 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:52:50,223 log 1033790 128205235152576 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:52:50,262 log 1033790 128205209974464 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:57:07,903 log 1033790 128205218367168 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:57:07,913 log 1033790 128205218367168 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:57:07,943 log 1033790 128205226759872 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:57:07,966 log 1033790 128205209974464 Not Found: /api/recommendations/
+WARNING 2025-05-23 20:59:22,308 log 1033790 128205722719936 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 20:59:22,321 log 1033790 128205722719936 Not Found: /api/recommendations/
+WARNING 2025-05-23 21:00:01,100 log 1033790 128205226759872 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 21:00:01,108 log 1033790 128205226759872 Not Found: /api/recommendations/
+WARNING 2025-05-23 21:00:52,309 log 1033790 128205218367168 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 21:00:52,357 log 1033790 128205722719936 Not Found: /api/recommendations/
+WARNING 2025-05-23 21:00:56,056 log 1033790 128205235152576 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 21:00:56,073 log 1033790 128205243545280 Not Found: /api/recommendations/
+WARNING 2025-05-23 21:00:56,084 log 1033790 128205226759872 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 21:00:56,132 log 1033790 128205235152576 Not Found: /api/recommendations/
+WARNING 2025-05-23 21:00:56,710 log 1033790 128205235152576 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 21:00:56,730 log 1033790 128205235152576 Not Found: /api/recommendations/
+WARNING 2025-05-23 21:00:56,745 log 1033790 128205209974464 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 21:00:56,809 log 1033790 128205722719936 Not Found: /api/recommendations/
+WARNING 2025-05-23 21:01:06,456 log 1033790 128205226759872 Not Found: /api/most-wished-product/
+WARNING 2025-05-23 21:01:06,469 log 1033790 128205226759872 Not Found: /api/recommendations/

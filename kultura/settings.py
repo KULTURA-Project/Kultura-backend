@@ -33,8 +33,9 @@ ALLOWED_HOSTS = ['*' , 'https://badolo.pythonanywhere.com/']
 # Application definition
 
 INSTALLED_APPS = [
-    "unfold",
-    "unfold.contrib.filters",
+     'jazzmin',
+    #"unfold",
+    #"unfold.contrib.filters",
     'mptt','widget_tweaks',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -223,19 +224,19 @@ from django.utils.translation import gettext_lazy as _
 
 
 
-UNFOLD = {
+'''UNFOLD = {
     "SITE_TITLE": "KULTURA Admin",
     "SITE_HEADER": "KULTURA",
     "SITE_URL": "/",
     #"SITE_ICON": lambda request: static("/LOGO-SYMBIOSE-YAAR_1.png"),
-    '''  "SITE_FAVICONS": [
+     "SITE_FAVICONS": [
         {
             "rel": "icon",
             "sizes": "32x32",
             "type": "image/png",
             "href": lambda request: static("/LOGO-SYMBIOSE-YAAR_1.png"),
         },
-    ],'''
+    ],
     #"SITE_LOGO": {
        # "sizes": "32x32",
        # "light": lambda request: static("/LOGO-SYMBIOSE-YAAR_1.png"),
@@ -408,7 +409,7 @@ UNFOLD = {
         ],
     },
 }
-
+'''
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 

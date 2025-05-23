@@ -1,4 +1,4 @@
-from django.contrib import admin
+from django.contrib import admin 
 from .models import (
     ProductType,
     Variant,
@@ -27,14 +27,14 @@ class CategoryAdmin(ModelAdmin, MPTTModelAdmin):
     mptt_level_indent = 20
     list_filter = ('parent',)  # Add filtering by parent category
 
-class ProductImageInline(TabularInline):
+class ProductImageInline(admin.TabularInline):
     model = ProductImage
     extra = 1
 
-class ProductSpecificationInline(TabularInline):
+class ProductSpecificationInline(admin.TabularInline):
     model = ProductSpecification
     extra = 1
-class ProductAdmin(ModelAdmin):
+class ProductAdmin(admin.ModelAdmin):
     #form = ProductForm
 
     list_display = ('name', 'history', 'price', 'category', 'display_image')
@@ -107,24 +107,24 @@ class ProductAdmin(ModelAdmin):
         return obj.get_availability_display()
     availability_status.short_description = 'Status'
 
-class VariantValueInline(TabularInline):
+class VariantValueInline(admin.TabularInline):
     model = VariantValue
     extra = 1
 
-class VariantInline(TabularInline):
+class VariantInline(admin.TabularInline):
     model = Variant
     extra = 1
     inlines = [VariantValueInline]  # Nested inline
 
-class ProductTypeAdmin(ModelAdmin):
+class ProductTypeAdmin(admin.ModelAdmin):
     list_display = ('name', 'description')
     inlines = [VariantInline]  # Show related variants
 
     
-class VariantAdmin(ModelAdmin):
+class VariantAdmin(admin.ModelAdmin):
     pass
 
-class VariantValueAdmin(ModelAdmin):
+class VariantValueAdmin(admin.ModelAdmin):
     pass
 
 admin.site.register(Category, CategoryAdmin)

@@ -4,12 +4,23 @@ from product.serializers import ProductSerializer
 from product.models import Product ,  ProductImage , Category , ProductType
 
 
+from rest_framework import serializers
+from .models import Promotion
+
 class PromotionSerializer(serializers.ModelSerializer):
+    image = serializers.SerializerMethodField()
+
     class Meta:
         model = Promotion
-        fields = ['id', 'name', 'description', 'image','discount_percentage' ,'link']
-        
-        
+        fields = ['id', 'name', 'description', 'image', 'discount_percentage', 'link']
+
+    def get_image(self, obj):
+        request = self.context.get('request')
+        if obj.image and hasattr(obj.image, 'url'):
+            return request.build_absolute_uri(obj.image.url)
+        return None
+
+
 class ProductImageSerializer(serializers.ModelSerializer):
     class Meta:
         model = ProductImage
